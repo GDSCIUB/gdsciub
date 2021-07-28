@@ -1,0 +1,20 @@
+.overview {
+  margin-top: 100px;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.overview__data {
+  width: 480px;
+}
+
+.overview__data > p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 30px;
+}
+
+.overview__cover > img {
+  height: 400px;
+}
