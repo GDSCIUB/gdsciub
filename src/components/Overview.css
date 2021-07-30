@@ -1,8 +1,9 @@
 .overview {
   margin-top: 100px;
-  padding: 100px;
+  padding: 50px 150px 50px 150px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .overview__data {
@@ -13,8 +14,21 @@
   margin-top: 20px;
   margin-bottom: 20px;
   line-height: 30px;
+  font-weight: 600;
+  color: gray;
+  font-size: 18px;
 }
 
 .overview__cover > img {
   height: 400px;
+}
+
+.member__overview {
+  border-radius: 5px;
+  padding: 10px 20px 10px 20px;
+}
+
+.cards {
+  padding: 100px;
+  display: flex;
 }

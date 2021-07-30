@@ -1,0 +1,31 @@
+.featureCard {
+  width: 300px;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.featureCard > div > .svg-inline--fa {
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+
+.featureCard > div > .fa-rocket {
+  color: #557dbf;
+}
+
+.featureCard > div > .fa-lightbulb {
+  color: #e1382b;
+}
+
+.featureCard > div > .fa-users {
+  color: #189e59;
+}
+
+.featureCard > div > p {
+  margin-top: 10px;
+  color: #637282;
+  font-size: 14px;
+  line-height: 22px;
+}
