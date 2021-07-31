@@ -32,3 +32,27 @@
   padding: 100px;
   display: flex;
 }
+
+.opertunities {
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  padding: 50px;
+}
+
+.opportunity__cards {
+  display: flex;
+  padding: 80px;
+  color: #637282;
+}
+
+.opportunity__cards > ul {
+  list-style-type: circle;
+  list-style-position: inside;
+  font-size: 15px;
+}

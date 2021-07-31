@@ -42,6 +42,21 @@ const Overview = () => {
                     desc="GDSC activities are targeted at University students and any others including faculty members who want to learn development skills & work to solve real-life problems."
                 />
             </div>
+            <div className="opertunities">
+                <h2>Opportunities GDSCs provide students with</h2>
+                <div className="opportunity__cards">
+                    <ul className="card">
+                        <li>Grow their knowledge on developer technologies and more through peer to peer workshops and events.</li>
+                        <br />
+                        <li>Showcase their prototypes and solutions to their local community and industry leaders.</li>
+                    </ul>
+                    <ul className="card">
+                        <li>Gain relevant industry experience by solving problems for local organizations with technology based solutions.</li>
+                        <br />
+                        <li>Getting inspiration to become world-class developers and changemakers from sharing others' success stories.</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     )
 }
