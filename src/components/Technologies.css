@@ -1,0 +1,23 @@
+.technologies {
+  padding: 100px;
+  background-color: #fafafa;
+}
+
+.techSec__title {
+  text-align: center;
+}
+
+.techLearn {
+  display: flex;
+  padding: 100px 100px 0px 100px;
+}
+
+.techLearn > div > img {
+  height: 400px;
+  max-width: 450px;
+  object-fit: contain;
+}
+
+.techAbout {
+  padding: 30px;
+}
