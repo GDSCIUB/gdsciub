@@ -1,0 +1,28 @@
+.faqs {
+  padding: 100px;
+}
+
+.faqs > div > h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.faq__card {
+  display: flex;
+}
+
+.faqCard__body {
+  padding: 30px;
+}
+
+.faqCard__title {
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.faqCard__body > p {
+  font-size: 14px;
+  line-height: 22px;
+  color: #4e5a66;
+}
