@@ -13,10 +13,10 @@ const Header = () => {
             </div>
             <div className="header__list">
                 <ul>
-                    <li>Overview</li>
-                    <li>Technologies</li>
-                    <li>Team</li>
-                    <li>Faqs</li>
+                    <a href="#Overview"><li>Overview</li></a>
+                    <a href="#Technology"><li>Technologies</li></a>
+                    <a href="#Team"><li>Team</li></a>
+                    <a href="#Faqs"><li>Faqs</li></a>
                     <li className="member">
                         <a href="/"><GroupRoundedIcon />Become a Member</a>
                     </li>
