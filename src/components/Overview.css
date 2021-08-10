@@ -56,3 +56,55 @@
   list-style-position: inside;
   font-size: 15px;
 }
+
+@media only screen and (max-width: 600px) {
+  .overview {
+    flex-direction: column;
+    padding: 0px;
+  }
+
+  .overview__data {
+    width: 300px;
+  }
+
+  .overview__data > h1 {
+    font-size: 20px;
+  }
+
+  .overview__data > h2 {
+    font-size: 16px;
+  }
+
+  .overview__data > p {
+    font-size: 16px;
+  }
+
+  .overview__cover > img {
+    width: 280px;
+    object-fit: contain;
+  }
+
+  .cards {
+    padding: 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .opertunities {
+    padding: 15px;
+  }
+
+  .opertunities > h2 {
+    font-size: 20px;
+  }
+
+  .opportunity__cards {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .card {
+    padding: 0px;
+  }
+}

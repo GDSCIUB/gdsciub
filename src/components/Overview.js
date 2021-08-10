@@ -9,7 +9,7 @@ import { faLightbulb, faRocket, faUsers } from '@fortawesome/free-solid-svg-icon
 
 const Overview = () => {
     return (
-        <div className="gdsc__overview">
+        <div className="gdsc__overview" id="Overview">
             <div className="overview">
                 <div className="overview__data">
                     <h1>Google Developer Student Club</h1>
