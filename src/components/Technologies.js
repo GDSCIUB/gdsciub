@@ -8,7 +8,7 @@ import './Technologies.css';
 
 const Technologies = () => {
     return (
-        <div className="technologies">
+        <div className="technologies" id="Technology">
             <div className="techSec__title">
                 <h1>Technologies We're Excited About</h1>
                 <p>Opportunities to learn & access deep technical content.</p>
