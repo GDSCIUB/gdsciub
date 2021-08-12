@@ -1,6 +1,7 @@
 import React from 'react';
 import './Team.css';
 import TeamCard from './TeamCard';
+import TeamMembers from './TeamMembers';
 
 const Team = () => {
     return (
@@ -38,54 +39,25 @@ const Team = () => {
                     linkedIn="/"
                 />
             </div>
-            <div className="teamCards">
-                <TeamCard
-                    name="/"
-                    clas="/"
-                    img="/"
-                    role="/"
-                    web="/"
-                    github="/"
-                    linkedIn="/"
-                />
-                <TeamCard
-                    name="/"
-                    clas="/"
-                    img=""
-                    role="Core Team Member"
-                    web="/"
-                    github="/"
-                    linkedIn="/"
-                />
-                <TeamCard
-                    name="/"
-                    clas="/"
-                    img=""
-                    role="Core Team Member"
-                    web="/"
-                    github="/"
-                />
+            <div className="otherTeamMemebers">
+                <h2>Other Team Members</h2>
+                <div className="otherMembers">
+                    <TeamMembers
+                        name="Hamza Bashir"
+                        clas="Computer Science"
+                        role="Web Development"
+                        github="/"
+                        linkedIn="/"
+                    />
+                    <TeamMembers
+                        name="Saman Mehmood"
+                        role="Web Development"
+                        github="/"
+                        linkedIn="/"
+                    />
+                </div>
             </div>
-            <div className="teamCards">
-                <TeamCard
-                    name="/"
-                    clas="/"
-                    img="/"
-                    role="/"
-                    web="/"
-                    github="/"
-                    linkedIn="/"
-                />
-                <TeamCard
-                    name="/"
-                    clas="/"
-                    img=""
-                    role="Core Team Member"
-                    web="/"
-                    github="/"
-                    linkedIn="/"
-                />
-            </div>
+
         </div>
     )
 }
