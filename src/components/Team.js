@@ -5,7 +5,7 @@ import TeamMembers from './TeamMembers';
 
 const Team = () => {
     return (
-        <div className="team">
+        <div className="team" id="Team">
             <div className="team__title">
                 <h1>Meet Our Team</h1>
                 <p>Passionate students are driving the success of the program.</p>
@@ -24,7 +24,7 @@ const Team = () => {
                     name="Aadil Saeed"
                     clas="Computer Science"
                     img=""
-                    role="Core Team Member"
+                    role="Mamagment Lead"
                     web="/"
                     github="/"
                     linkedIn="/"
@@ -33,7 +33,7 @@ const Team = () => {
                     name="Arbaz Sohail"
                     clas="Computer Science"
                     img=""
-                    role="Core Team Member"
+                    role="Marketing Lead"
                     web="/"
                     github="/"
                     linkedIn="/"
@@ -45,13 +45,13 @@ const Team = () => {
                     <TeamMembers
                         name="Hamza Bashir"
                         clas="Computer Science"
-                        role="Web Development"
+                        role="Web Dev"
                         github="/"
                         linkedIn="/"
                     />
                     <TeamMembers
                         name="Saman Mehmood"
-                        role="Web Development"
+                        role="Web Dev"
                         github="/"
                         linkedIn="/"
                     />

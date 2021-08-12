@@ -86,3 +86,37 @@
   color: white;
   padding: 10px;
 }
+
+@media only screen and (max-width: 600px) {
+  .team {
+    padding: 20px;
+  }
+
+  .teamCards {
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .teamCard {
+    margin: 10px;
+  }
+
+  .otherTeamMemebers > h2 {
+    margin-bottom: 20px;
+  }
+
+  .teamMemebers {
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .teamMember__details > h1 {
+    font-size: 16px;
+  }
+
+  .teamMember__details > h2 {
+    font-size: 18px;
+  }
+}
