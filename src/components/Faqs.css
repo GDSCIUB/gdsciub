@@ -26,3 +26,17 @@
   line-height: 22px;
   color: #4e5a66;
 }
+
+@media only screen and (max-width: 600px) {
+  .faqs {
+    padding: 20px;
+  }
+
+  .faqCard__body {
+    padding: 10px;
+  }
+
+  .faqCard__title {
+    font-size: 18px;
+  }
+}
