@@ -23,7 +23,7 @@ const Team = () => {
                 <TeamCard
                     name="Aadil Saeed"
                     clas="Computer Science"
-                    img=""
+                    img="https://firebasestorage.googleapis.com/v0/b/gdsciub.appspot.com/o/Team%2022%2Faadil.jpg?alt=media&token=57e0cfbc-cc21-4f01-b284-c5c6b408852d"
                     role="Mamagment Lead"
                     web="/"
                     github="/"
@@ -32,7 +32,7 @@ const Team = () => {
                 <TeamCard
                     name="Arbaz Sohail"
                     clas="Computer Science"
-                    img=""
+                    img="https://firebasestorage.googleapis.com/v0/b/gdsciub.appspot.com/o/Team%2022%2Farbaz.jpg?alt=media&token=fc4778b1-7307-43e1-82df-1cd6cd0f42bf"
                     role="Marketing Lead"
                     web="/"
                     github="/"
