@@ -15,12 +15,12 @@ const Footer = () => {
             <div className="footer__gdsc">
                 <img src={gdsciub} alt="" />
                 <div className="footer__social">
-                    <a href="/"><InstagramIcon /></a>
-                    <a href="/"><GitHubIcon /></a>
-                    <a href="/"><LinkedInIcon /></a>
-                    <a href="/"><FacebookIcon /></a>
-                    <a href="/"><LanguageIcon /></a>
-                    <a href="/"><EmailIcon /></a>
+                    <a href="https://instagram.com/gdsciub" target='_blank' rel='noreferrer'><InstagramIcon /></a>
+                    <a href="https://github.com/GDSCIUB" target='_blank' rel='noreferrer'><GitHubIcon /></a>
+                    <a href="https://www.linkedin.com/company/google-developer-student-club-iub-chapter/" target='_blank' rel='noreferrer'><LinkedInIcon /></a>
+                    <a href="https://www.facebook.com/gdsciub/" target='_blank' rel='noreferrer'><FacebookIcon /></a>
+                    <a href="https://gdsciub.web.app/" target='_blank' rel='noreferrer'><LanguageIcon /></a>
+                    <a href="mailto:iubgdsc@gmail.com" target='_blank' rel='noreferrer'><EmailIcon /></a>
                     <p>Copyright &copy; {new Date().getFullYear()}. All Rights Reserved.</p>
                 </div>
             </div>
