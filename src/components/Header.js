@@ -18,7 +18,10 @@ const Header = () => {
                     <a href="#Team"><li>Team</li></a>
                     <a href="#Faqs"><li>Faqs</li></a>
                     <li className="member">
-                        <a href="/"><GroupRoundedIcon />Become a Member</a>
+                        <a href="https://forms.gle/CRKcGg4GzriJeFSN9" target='_blank' rel='noreferrer'>
+                            <GroupRoundedIcon />
+                            Become a Member
+                        </a>
                     </li>
                 </ul>
             </div>

@@ -32,7 +32,7 @@ const Team = () => {
                 <TeamCard
                     name="Arbaz Sohail"
                     clas="Computer Science"
-                    img="https://firebasestorage.googleapis.com/v0/b/gdsciub.appspot.com/o/Team%2022%2Farbaz.jpg?alt=media&token=fc4778b1-7307-43e1-82df-1cd6cd0f42bf"
+                    img="https://firebasestorage.googleapis.com/v0/b/gdsciub.appspot.com/o/Team%2022%2Farbaz2.jpeg?alt=media&token=4413702a-f065-4fbb-acb1-a2c01b3f7512"
                     role="Marketing Lead"
                     web="/"
                     github="/"

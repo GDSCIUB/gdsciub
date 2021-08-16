@@ -19,7 +19,12 @@ const Overview = () => {
                         for university students to learn mobile and web development skills,
                         design thinking skills and leadership skills.
                     </p>
-                    <button className="member member__overview"><a href="/"><GroupRoundedIcon />Become a Member</a></button>
+                    <button className="member member__overview">
+                        <a href="https://forms.gle/CRKcGg4GzriJeFSN9" target='_blank' rel='noreferrer'>
+                            <GroupRoundedIcon />
+                            Become a Member
+                        </a>
+                    </button>
                 </div>
                 <div className="overview__cover">
                     <img src={community} alt="" />
