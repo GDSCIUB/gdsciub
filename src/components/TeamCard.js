@@ -15,9 +15,9 @@ const TeamCard = ({ name, img, role, clas, web, github, linkedIn }) => {
                 <h3>{clas}</h3>
             </div>
             <div className="team__social">
-                <a href={web}><LanguageIcon /></a>
-                <a href={github}><GitHubIcon /></a>
-                <a href={linkedIn}><LinkedInIcon /></a>
+                <a href={web} target='_blank' rel='noreferrer'><LanguageIcon /></a>
+                <a href={github} target='_blank' rel='noreferrer'><GitHubIcon /></a>
+                <a href={linkedIn} target='_blank' rel='noreferrer'><LinkedInIcon /></a>
             </div>
         </div>
     )

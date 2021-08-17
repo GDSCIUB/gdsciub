@@ -25,18 +25,15 @@ const Team = () => {
                     clas="Computer Science"
                     img="https://firebasestorage.googleapis.com/v0/b/gdsciub.appspot.com/o/Team%2022%2Faadil.jpg?alt=media&token=57e0cfbc-cc21-4f01-b284-c5c6b408852d"
                     role="Mamagment Lead"
-                    web="/"
-                    github="/"
-                    linkedIn="/"
+                    web="https://www.facebook.com/profile.php?id=100005023003882"
+                    github="https://github.com/aadilsaeed"
+                    linkedIn="https://www.linkedin.com/in/aadil-saeed-9b255021b"
                 />
                 <TeamCard
-                    name="Arbaz Sohail"
+                    name="Arbaz Sukhera"
                     clas="Computer Science"
                     img="https://firebasestorage.googleapis.com/v0/b/gdsciub.appspot.com/o/Team%2022%2Farbaz2.jpeg?alt=media&token=4413702a-f065-4fbb-acb1-a2c01b3f7512"
                     role="Marketing Lead"
-                    web="/"
-                    github="/"
-                    linkedIn="/"
                 />
             </div>
             <div className="otherTeamMemebers">
