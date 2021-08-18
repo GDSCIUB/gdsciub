@@ -24,7 +24,7 @@ const Team = () => {
                     name="Aadil Saeed"
                     clas="Computer Science"
                     img="https://firebasestorage.googleapis.com/v0/b/gdsciub.appspot.com/o/Team%2022%2Faadil.jpg?alt=media&token=57e0cfbc-cc21-4f01-b284-c5c6b408852d"
-                    role="Mamagment Lead"
+                    role="Mamagement Lead"
                     web="https://www.facebook.com/profile.php?id=100005023003882"
                     github="https://github.com/aadilsaeed"
                     linkedIn="https://www.linkedin.com/in/aadil-saeed-9b255021b"
@@ -34,6 +34,25 @@ const Team = () => {
                     clas="Computer Science"
                     img="https://firebasestorage.googleapis.com/v0/b/gdsciub.appspot.com/o/Team%2022%2Farbaz2.jpeg?alt=media&token=4413702a-f065-4fbb-acb1-a2c01b3f7512"
                     role="Marketing Lead"
+                />
+            </div>
+            <div className="teamCards cardsrow2">
+                <TeamCard
+                    name="Emaan Yaqoob"
+                    clas="Computer Science"
+                    img="https://firebasestorage.googleapis.com/v0/b/gdsciub.appspot.com/o/Team%2022%2FEman%20Yaqoob1.jpg?alt=media&token=5071923d-59d7-494f-8cd1-1d175af74834"
+                    role="App Dev Lead"
+                    github="https://github.com/eeimaan"
+                    linkedIn="https://www.linkedin.com/in/emaanyaqub/"
+                />
+                <TeamCard
+                    name="Eisha Tir Razia"
+                    clas="Information Technology"
+                    img="https://firebasestorage.googleapis.com/v0/b/gdsciub.appspot.com/o/Team%2022%2FEisha%20Ejaz1.jpg?alt=media&token=f35ff615-5b59-4fcf-9f7b-6965f3bbd794"
+                    role="Publication Lead"
+                    web="https://instagram.com/eishaejaz"
+                    github="https://github.com/eishaejaz"
+                    linkedIn="https://www.linkedin.com/in/eisha-ejaz-2a104821b"
                 />
             </div>
             <div className="otherTeamMemebers">

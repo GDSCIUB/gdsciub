@@ -87,6 +87,10 @@
   padding: 10px;
 }
 
+.cardsrow2 {
+  margin-top: -80px;
+}
+
 @media only screen and (max-width: 600px) {
   .team {
     padding: 20px;
@@ -118,5 +122,9 @@
 
   .teamMember__details > h2 {
     font-size: 18px;
+  }
+
+  .cardsrow2 {
+    margin-top: -15px;
   }
 }
