@@ -62,14 +62,13 @@ const Team = () => {
                         name="Hamza Bashir"
                         clas="Computer Science"
                         role="Web Dev"
-                        github="/"
-                        linkedIn="/"
+                        github="https://github.com/DEADHEAD652"
+                        linkedIn="https://www.linkedin.com/in/hamza-malik-74a06621b"
                     />
                     <TeamMembers
                         name="Saman Mehmood"
                         role="Web Dev"
-                        github="/"
-                        linkedIn="/"
+                        linkedIn="https://www.linkedin.com/in/saman-mahmood-a8187120a/"
                     />
                 </div>
             </div>
