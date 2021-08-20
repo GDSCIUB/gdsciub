@@ -91,6 +91,15 @@
   margin-top: -80px;
 }
 
+.team__members {
+  display: flex;
+  justify-content: center;
+}
+
+.teamrow2 {
+  margin-top: -30px;
+}
+
 @media only screen and (max-width: 600px) {
   .team {
     padding: 20px;
@@ -126,5 +135,13 @@
 
   .cardsrow2 {
     margin-top: -15px;
+  }
+
+  .team__members {
+    flex-direction: column;
+  }
+
+  .teamrow2 {
+    margin-top: 0px;
   }
 }

@@ -57,18 +57,50 @@ const Team = () => {
             </div>
             <div className="otherTeamMemebers">
                 <h2>Other Team Members</h2>
-                <div className="otherMembers">
+                <div className="team__members">
+                    <div className="otherMembers">
+                        <TeamMembers
+                            name="Ali Rehman"
+                            clas="Computer Science"
+                            role="Publication"
+                            github="https://github.com/Thedanreturns"
+                            linkedIn="https://www.linkedin.com/in/ali-rehman-23004821b/"
+                        />
+                        <TeamMembers
+                            name="Hamza Bashir"
+                            clas="Computer Science"
+                            role="Web Dev"
+                            github="https://github.com/DEADHEAD652"
+                            linkedIn="https://www.linkedin.com/in/hamza-malik-74a06621b"
+                        />
+                    </div>
+                    <div className="otherMembers">
+                        <TeamMembers
+                            name="Saman Mehmood"
+                            role="Web Dev"
+                            linkedIn="https://www.linkedin.com/in/saman-mahmood-a8187120a/"
+                        />
+                        <TeamMembers
+                            name="Muhammad Soban"
+                            role="Web Dev"
+                            github="https://github.com/sobankhan12"
+                            linkedIn="https://www.linkedin.com/in/muhammad-soban-601570183/"
+                        />
+                    </div>
+                </div>
+                <div className="otherMembers teamrow2">
                     <TeamMembers
-                        name="Hamza Bashir"
+                        name="Rashid Ghafoor"
                         clas="Computer Science"
                         role="Web Dev"
-                        github="https://github.com/DEADHEAD652"
-                        linkedIn="https://www.linkedin.com/in/hamza-malik-74a06621b"
+                        github="https://github.com/RashidGhafoor"
+                        linkedIn="https://www.linkedin.com/in/rashid-ghafoor-0abb40177/"
                     />
                     <TeamMembers
-                        name="Saman Mehmood"
+                        name="Abdul Rehman"
                         role="Web Dev"
-                        linkedIn="https://www.linkedin.com/in/saman-mahmood-a8187120a/"
+                        github="https://github.com/dani-nawaz"
+                        linkedIn="https://www.linkedin.com/in/abdul-rehman-nawaz-87264421b/"
                     />
                 </div>
             </div>
