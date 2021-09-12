@@ -1,21 +1,22 @@
 .team {
   background-color: rgb(34, 34, 34);
   color: white;
-  padding: 50px;
+  padding: 20px;
 }
 
 .team__title {
   text-align: center;
+  padding-bottom: 50px;
 }
 
 .teamCards {
   display: flex;
   justify-content: center;
-  padding: 50px;
+  padding-bottom: 10px;
 }
 
 .teamCard {
-  margin: 20px;
+  margin: 10px;
   background-color: rgb(62, 64, 73);
   width: 250px;
   padding: 30px;
@@ -88,7 +89,7 @@
 }
 
 .cardsrow2 {
-  margin-top: -80px;
+  padding-bottom: 50px;
 }
 
 .team__members {

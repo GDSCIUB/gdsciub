@@ -14,7 +14,7 @@ const Team = () => {
                 <TeamCard
                     name="Sharjeel Yunus"
                     clas="Computer Science"
-                    img="https://firebasestorage.googleapis.com/v0/b/gdsciub.appspot.com/o/Team%2022%2Fsharjeel.jpg?alt=media&token=17dec942-9b6c-4400-9698-b5d7f299ef63"
+                    img="https://firebasestorage.googleapis.com/v0/b/gdsciub.appspot.com/o/Team%2022%2Fsharjeel-sq.jpg?alt=media&token=a07aee2d-3239-4daf-8f17-f30ae7d14f45"
                     role="Community Lead"
                     web="https://www.sharjeelyunus.me/"
                     github="https://github.com/sharjeelyunus"
@@ -34,17 +34,12 @@ const Team = () => {
                     clas="Computer Science"
                     img="https://firebasestorage.googleapis.com/v0/b/gdsciub.appspot.com/o/Team%2022%2Farbaz2.jpeg?alt=media&token=4413702a-f065-4fbb-acb1-a2c01b3f7512"
                     role="Marketing Lead"
+                    web="https://www.instagram.com/arbaz_sukhera/"
+                    github="https://github.com/ArbazSukhera"
+                    linkedIn="https://www.linkedin.com/in/arbaz-sukhera-a9b451220/"
                 />
             </div>
             <div className="teamCards cardsrow2">
-                <TeamCard
-                    name="Emaan Yaqoob"
-                    clas="Computer Science"
-                    img="https://firebasestorage.googleapis.com/v0/b/gdsciub.appspot.com/o/Team%2022%2FEman%20Yaqoob1.jpg?alt=media&token=5071923d-59d7-494f-8cd1-1d175af74834"
-                    role="App Dev Lead"
-                    github="https://github.com/eeimaan"
-                    linkedIn="https://www.linkedin.com/in/emaanyaqub/"
-                />
                 <TeamCard
                     name="Eisha Tir Razia"
                     clas="Information Technology"
@@ -53,6 +48,33 @@ const Team = () => {
                     web="https://instagram.com/eishaejaz"
                     github="https://github.com/eishaejaz"
                     linkedIn="https://www.linkedin.com/in/eisha-ejaz-2a104821b"
+                />
+                <TeamCard
+                    name="Aslam Sarfraz"
+                    clas="Computer Science"
+                    img="https://firebasestorage.googleapis.com/v0/b/gdsciub.appspot.com/o/Team%2022%2FAslam%20Sarfraz.jpg?alt=media&token=735be25a-2763-45b1-9b91-dfcc42bf56f3"
+                    role="Web Dev Lead"
+                    web="https://facebook.com/aslambaba91r"
+                    github="https://github.com/aslambaba"
+                    linkedIn="https://www.linkedin.com/in/aslamsarfraz"
+                />
+                <TeamCard
+                    name="Emaan Yaqoob"
+                    clas="Computer Science"
+                    img="https://firebasestorage.googleapis.com/v0/b/gdsciub.appspot.com/o/Team%2022%2FEman%20Yaqoob1.jpg?alt=media&token=5071923d-59d7-494f-8cd1-1d175af74834"
+                    role="App Dev Lead"
+                    web="https://www.instagram.com/eman.yaqub/"
+                    github="https://github.com/eeimaan"
+                    linkedIn="https://www.linkedin.com/in/emaanyaqub/"
+                />
+                <TeamCard
+                    name="Abdul Wahab Siddiqui"
+                    clas="Computer Science"
+                    img="https://firebasestorage.googleapis.com/v0/b/gdsciub.appspot.com/o/Team%2022%2Fdp%20-%20Siddiqui's%20Life.jpg?alt=media&token=0c091828-e645-4754-974e-f75c9abbf47d"
+                    role="Graphics Lead"
+                    web="https://www.instagram.com/abdulwahabsdq/"
+                    github="https://github.com/wahabsiddiqui"
+                    linkedIn="https://www.linkedin.com/in/abdulwahabsiddiqui9211"
                 />
             </div>
             <div className="otherTeamMemebers">
@@ -78,6 +100,7 @@ const Team = () => {
                         <TeamMembers
                             name="Saman Mehmood"
                             role="Web Dev"
+                            github="https://github.com/SamanMahmood"
                             linkedIn="https://www.linkedin.com/in/saman-mahmood-a8187120a/"
                         />
                         <TeamMembers
