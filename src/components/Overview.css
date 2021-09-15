@@ -33,6 +33,17 @@
   display: flex;
 }
 
+.AboutGDSC {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.AboutGDSC > button {
+  width: 300px;
+}
+
 .opertunities {
   padding: 80px;
   display: flex;

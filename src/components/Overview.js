@@ -22,7 +22,7 @@ const Overview = () => {
                     <button className="member member__overview">
                         <a href="https://forms.gle/CRKcGg4GzriJeFSN9" target='_blank' rel='noreferrer'>
                             <GroupRoundedIcon />
-                            Become a Member
+                            &nbsp;Become a Member
                         </a>
                     </button>
                 </div>
@@ -30,22 +30,30 @@ const Overview = () => {
                     <img src={community} alt="" />
                 </div>
             </div>
-            <div className="cards">
-                <FeatureCard
-                    Avatar={<FontAwesomeIcon icon={faRocket} />}
-                    title="Concept of GDSC"
-                    desc="The GDSC program is a grassroots channel through which Google provides development skills, mobile and web development skills for students, towards employability."
-                />
-                <FeatureCard
-                    Avatar={<FontAwesomeIcon icon={faLightbulb} />}
-                    title="Why GDSC?"
-                    desc="For students to learn development skills, solve problems through technology and inspire them to be world-class developers and changemakers."
-                />
-                <FeatureCard
-                    Avatar={<FontAwesomeIcon icon={faUsers} />}
-                    title="Target audience"
-                    desc="GDSC activities are targeted at University students and any others including faculty members who want to learn development skills & work to solve real-life problems."
-                />
+            <div className="AboutGDSC">
+                <div className="cards">
+                    <FeatureCard
+                        Avatar={<FontAwesomeIcon icon={faRocket} />}
+                        title="Concept of GDSC"
+                        desc="The GDSC program is a grassroots channel through which Google provides development skills, mobile and web development skills for students, towards employability."
+                    />
+                    <FeatureCard
+                        Avatar={<FontAwesomeIcon icon={faLightbulb} />}
+                        title="Why GDSC?"
+                        desc="For students to learn development skills, solve problems through technology and inspire them to be world-class developers and changemakers."
+                    />
+                    <FeatureCard
+                        Avatar={<FontAwesomeIcon icon={faUsers} />}
+                        title="Target audience"
+                        desc="GDSC activities are targeted at University students and any others including faculty members who want to learn development skills & work to solve real-life problems."
+                    />
+                </div>
+                <button className="member member__overview">
+                    <a href="https://gdsc.community.dev/the-islamia-university-of-bahawalpur/" target='_blank' rel='noreferrer'>
+                        <GroupRoundedIcon />
+                        &nbsp;Join Community Platform
+                    </a>
+                </button>
             </div>
             <div className="opertunities">
                 <h2>Opportunities GDSCs provide students with</h2>
