@@ -20,11 +20,10 @@ function App() {
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged(userAuth => {
       const user = {
-        uid: userAuth.uid,
-        email: userAuth.email
+        uid: userAuth?.uid,
+        email: userAuth?.email
       }
       if (userAuth) {
-        console.log(userAuth)
         setUser(user)
       } else {
         setUser(null)
@@ -37,7 +36,6 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route path="/dashboard" exact element={user ? <AdminPanel /> : <Login />} />
           <Route path="/" element={
             <>
               <Header />
@@ -48,6 +46,7 @@ function App() {
               <Footer />
             </>
           } />
+          <Route path="/dashboard" exact element={user ? <AdminPanel /> : <Login />} />
         </Routes>
       </Router>
     </div >

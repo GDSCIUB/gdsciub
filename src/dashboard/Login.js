@@ -20,11 +20,21 @@ const Login = () => {
 
     return (
         <div className="login">
-            <h1>Login</h1>
             <div>
-                <input type="email" ref={emailRef} />
-                <input type="password" ref={passwordRef} />
-                <button onClick={login}>Login</button>
+                <ul className="adminNav_list">
+                    <li>
+                        <a href="/">Home</a>
+                        <a href="/dashboard">Dashboard</a>
+                    </li>
+                </ul>
+            </div>
+            <div className="signUp">
+                <h1>Login</h1>
+                <div className="login__auth">
+                    <input type="email" ref={emailRef} />
+                    <input type="password" ref={passwordRef} />
+                    <button onClick={login}>Login</button>
+                </div>
             </div>
         </div>
     )
