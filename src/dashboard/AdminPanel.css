@@ -1,0 +1,52 @@
+.adminPanel {
+  background-color: #181924;
+  color: white;
+}
+
+.adminNav {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.adminNav_list > li {
+  padding: 10px;
+  list-style: none;
+}
+
+.adminNav_list > li > a {
+  color: rgb(226, 226, 226);
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.adminNav_list > li > a:hover {
+  color: white;
+}
+
+.admin_name {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.MuiButton-label {
+  color: rgb(226, 226, 226);
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.MuiButtonBase-root {
+  color: white !important;
+}
+
+.MuiList-root {
+  background-color: #3b3c45;
+}
+
+.MuiSvgIcon-root {
+  font-size: 20px !important;
+  margin-right: 10px;
+}

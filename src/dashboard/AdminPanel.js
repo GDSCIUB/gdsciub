@@ -1,9 +1,14 @@
 import React from 'react';
+import DashboardNav from './DashboardNav';
+
+import "./AdminPanel.css";
+
 
 const AdminPanel = () => {
+
     return (
-        <div>
-            <h1>Admin Pannel</h1>
+        <div className="adminPanel">
+            <DashboardNav />
         </div>
     )
 }

@@ -10,30 +10,46 @@ import {
   BrowserRouter as Router,
   Routes,
   Route
-
 } from 'react-router-dom';
 import AdminPanel from './dashboard/AdminPanel';
-
+import { useEffect, useState } from 'react';
+import { auth } from './Firebase';
 
 function App() {
+  const [user, setUser] = useState(null);
+  useEffect(() => {
+    const unsubscribe = auth.onAuthStateChanged(userAuth => {
+      const user = {
+        uid: userAuth.uid,
+        email: userAuth.email
+      }
+      if (userAuth) {
+        console.log(userAuth)
+        setUser(user)
+      } else {
+        setUser(null)
+      }
+    })
+    return unsubscribe
+  }, [])
+
   return (
     <div className="App">
-      <Header />
       <Router>
         <Routes>
-          <Route path="/react-admin" exact element={<Login />} />
-          <Route path="/dashboard" exact element={<AdminPanel />} />
+          <Route path="/dashboard" exact element={user ? <AdminPanel /> : <Login />} />
           <Route path="/" element={
             <>
+              <Header />
               <Overview />
               <Technologies />
               <Team />
               <Faqs />
+              <Footer />
             </>
           } />
         </Routes>
       </Router>
-      <Footer />
     </div >
   );
 }
