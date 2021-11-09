@@ -14,6 +14,7 @@ import {
 import AdminPanel from './dashboard/AdminPanel';
 import { useEffect, useState } from 'react';
 import { auth } from './Firebase';
+import Workshops from './components/Workshops';
 
 function App() {
   const [user, setUser] = useState(null);
@@ -40,6 +41,7 @@ function App() {
             <>
               <Header />
               <Overview />
+              <Workshops />
               <Technologies />
               <Team />
               <Faqs />

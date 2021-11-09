@@ -14,6 +14,7 @@ const Header = () => {
             <div className="header__list">
                 <ul>
                     <a href="#Overview"><li>Overview</li></a>
+                    <a href="#Workshops"><li>Workshops</li></a>
                     <a href="#Technology"><li>Technologies</li></a>
                     <a href="#Team"><li>Team</li></a>
                     <a href="#Faqs"><li>Faqs</li></a>

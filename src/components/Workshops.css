@@ -1,0 +1,55 @@
+.workshops {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.workshops_heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.events {
+  display: grid;
+  grid-template-columns: 360px 360px 360px;
+  grid-gap: 20px;
+  justify-content: center;
+}
+
+.event_img > img {
+  width: 250px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.event_details {
+  margin: 20px;
+  max-width: 330px;
+}
+
+.event_details > h2 {
+  margin-bottom: 10px;
+}
+
+.event_details > a > button {
+  background-color: #2f5be7;
+  padding: 10px;
+  border: none;
+  margin-top: 10px;
+  border-radius: 5px;
+  width: 150px;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .events {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
