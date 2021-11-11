@@ -3,6 +3,10 @@
   color: white;
 }
 
+.dashboardNav {
+  background-color: #3b3c45;
+}
+
 .adminNav {
   display: flex;
   justify-content: space-between;
@@ -12,6 +16,7 @@
 .adminNav_list > li {
   padding: 10px;
   list-style: none;
+  display: flex;
 }
 
 .adminNav_list > li > a {
@@ -49,4 +54,23 @@
 .MuiSvgIcon-root {
   font-size: 20px !important;
   margin-right: 10px;
+}
+
+.sidebar_list {
+  display: flex;
+  color: white;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  margin-top: -77px;
+}
+
+.sidebar_list > a {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  padding: 40px;
+  border: 1px solid white;
+  margin: 20px;
+  border-radius: 5px;
 }

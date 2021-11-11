@@ -54,7 +54,7 @@ const DashboardNav = () => {
     var name = nameReplace !== str ? nameReplace : null;
 
     return (
-        <div className="adminPanel">
+        <div className="dashboardNav">
             <nav className="adminNav">
                 <ul className="adminNav_list">
                     <li>

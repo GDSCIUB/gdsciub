@@ -15,6 +15,7 @@ import AdminPanel from './dashboard/AdminPanel';
 import { useEffect, useState } from 'react';
 import { auth } from './Firebase';
 import Workshops from './components/Workshops';
+import Events from './dashboard/Events';
 
 function App() {
   const [user, setUser] = useState(null);
@@ -49,6 +50,7 @@ function App() {
             </>
           } />
           <Route path="/dashboard" exact element={user ? <AdminPanel /> : <Login />} />
+          <Route path="/dashboard/Events" exact element={user ? <Events /> : <Login />} />
         </Routes>
       </Router>
     </div >
