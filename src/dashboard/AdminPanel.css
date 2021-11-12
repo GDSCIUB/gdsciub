@@ -74,3 +74,49 @@
   margin: 20px;
   border-radius: 5px;
 }
+
+.dash__events {
+  background-color: #181924;
+  height: 100vh;
+}
+
+.upload {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.upload > div > .MuiSvgIcon-root {
+  font-size: 100px !important;
+  margin-right: 0px;
+}
+
+.upload > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+}
+
+.upload > p {
+  font-weight: bold;
+}
+
+.upload__modal {
+  background-color: #3b3c45;
+  color: white;
+  width: 500px;
+  height: 500px;
+  margin-left: 400px;
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
