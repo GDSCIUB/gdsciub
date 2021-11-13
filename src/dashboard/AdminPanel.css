@@ -119,4 +119,37 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 20px;
+}
+
+.eventupload {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+}
+
+.eventupload > h2 {
+  margin-bottom: 20px;
+}
+
+.eventupload > div > input {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.imageupload__progress {
+  width: 350px;
+}
+
+.imageupload__button {
+  background-color: #181924 !important;
+  width: 350px;
+}
+
+.fileupload {
+  padding: 10px;
 }
