@@ -1,8 +1,13 @@
-.workshops {
+.featured_workshops {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 50px;
+}
+
+.workshops {
+  margin-top: 80px;
 }
 
 .workshops_heading {
@@ -39,6 +44,18 @@
   margin-top: 10px;
   border-radius: 5px;
   width: 150px;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+}
+
+.workshops_button > a > button {
+  background-color: #2f5be7;
+  padding: 10px;
+  border: none;
+  margin-top: 10px;
+  border-radius: 5px;
+  width: 300px;
   cursor: pointer;
   font-weight: bold;
   color: white;

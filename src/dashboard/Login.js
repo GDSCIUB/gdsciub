@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { auth } from '../Firebase';
+import { signup } from '../Firebase';
 import './Login.css';
 
 const Login = () => {
@@ -8,14 +8,7 @@ const Login = () => {
 
     const login = e => {
         e.preventDefault();
-        auth.signInWithEmailAndPassword(
-            emailRef.current.value,
-            passwordRef.current.value
-        ).then(user => {
-            console.log(user)
-        }).catch(err => {
-            console.log(err)
-        })
+        signup(emailRef.current.value, passwordRef.current.value);
     }
 
     return (
