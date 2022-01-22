@@ -17,6 +17,7 @@ import { auth } from './Firebase';
 import FeaturedWorkshop from './components/FeaturedWorkshop';
 import Events from './dashboard/Events';
 import Workshops from './components/Workshops';
+import FlutterBootcamp from './pages/FlutterBootcamp';
 
 function App() {
   const [user, setUser] = useState(null);
@@ -54,6 +55,14 @@ function App() {
             <>
               <Header />
               <Workshops />
+              <Footer />
+            </>
+          }
+          />
+          <Route path="/FlutterBootcamp" exact element={
+            <>
+              <Header />
+              <FlutterBootcamp />
               <Footer />
             </>
           }
