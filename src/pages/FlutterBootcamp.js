@@ -1,12 +1,20 @@
 import React from 'react';
-import programming from '../assets/flutter logo.png';
+import FlutterLogo from '../assets/flutter logo.png';
+import Collaborations from '../assets/FlutterBootcamp/collaboration.png';
+import workshop1 from '../assets/FlutterBootcamp/intro to flutter.png';
+import workshop2 from '../assets/FlutterBootcamp/intro to widgets.png';
+import workshop3 from '../assets/FlutterBootcamp/Custom Widgets.png';
+import workshop4 from '../assets/FlutterBootcamp/State Management.png';
+import workshop5 from '../assets/FlutterBootcamp/Flutter x Firebase.png';
+import workshop6 from '../assets/FlutterBootcamp/API Integration.png';
+
 import './FlutterBootcamp.css';
 
 const FlutterBootcamp = () => {
     return (
         <div className='flutterBootcamp'>
             <div className='flutterHeader'>
-                <img src={programming} alt="" />
+                <img src={FlutterLogo} alt="" />
                 <div>
                     <h1>Flutter Bootcamp</h1>
                     <p>
@@ -57,6 +65,261 @@ const FlutterBootcamp = () => {
                             <p>Core Team GDG Live PK</p>
                         </div>
                     </div>
+                </div>
+                <div className='flutterWorkshops'>
+                    <h2>Workshops</h2>
+                    <div className='FWorkshops'>
+                        <div className='FWorkshop'>
+                            <img src={workshop1} alt="" />
+                            <h3>Introduction To Flutter</h3>
+                            <p>Speaker: Sharjeel Yunus</p>
+                            <span>Date: 19th January 2022</span>
+                            <br />
+                            <div>
+                                <a
+                                    href="https://gdsc.community.dev/e/m2q7b7/"
+                                    className='Event'
+                                    target='_blank'
+                                    rel="noreferrer"
+                                >
+                                    Event Link
+                                </a>
+                                <a
+                                    href="https://youtu.be/iv2eVi8AqOs"
+                                    className='YouTube'
+                                    target='_blank'
+                                    rel="noreferrer"
+                                >
+                                    Watch on YouTube
+                                </a>
+                                <a
+                                    href="https://docs.google.com/presentation/d/1nAmNL5Mj9pNSh-7Czl8UYKhfOznQQvvY4ygZXsOUhJ0/edit?usp=sharing"
+                                    className='slides'
+                                    target='_blank'
+                                    rel="noreferrer"
+                                >
+                                    Slides
+                                </a>
+                                <a
+                                    href="https://forms.gle/tEUspe5j3DVGUiez7"
+                                    className='submitProject'
+                                    target='_blank'
+                                    rel="noreferrer"
+                                >
+                                    Submit Project
+                                </a>
+                            </div>
+                        </div>
+                        <div className='FWorkshop'>
+                            <img src={workshop2} alt="" />
+                            <h3>Introduction To Widgets</h3>
+                            <p>Speaker: Emaan Yaqoob</p>
+                            <span>Date: 21st January 2022</span>
+                            <br />
+                            <div>
+                                <a
+                                    href="https://gdsc.community.dev/e/mm8j36/"
+                                    className='Event'
+                                    target='_blank'
+                                    rel="noreferrer"
+                                >
+                                    Event Link
+                                </a>
+                                <a
+                                    href="https://youtu.be/rkoMgatICaE"
+                                    className='YouTube'
+                                    target='_blank'
+                                    rel="noreferrer"
+                                >
+                                    Watch on YouTube
+                                </a>
+                                <a
+                                    href="https://docs.google.com/presentation/d/1qbCpipovmp2lLuiXXu2BowxcCOBd8Owzi-7HvLvkZck/edit?usp=sharing"
+                                    className='slides'
+                                    target='_blank'
+                                    rel="noreferrer"
+                                >
+                                    Slides
+                                </a>
+                                <a
+                                    href="https://forms.gle/kfXcjaXwQVUHSq9p9"
+                                    className='submitProject'
+                                    target='_blank'
+                                    rel="noreferrer"
+                                >
+                                    Submit Project
+                                </a>
+                            </div>
+                        </div>
+                        <div className='FWorkshop'>
+                            <img src={workshop3} alt="" />
+                            <h3>Custom Widgets</h3>
+                            <p>Speaker: Ehmad Saeed</p>
+                            <span>Date: 23rd January 2022</span>
+                            <br />
+                            <div>
+                                <a
+                                    href="https://gdsc.community.dev/e/m9edz2/"
+                                    className='Event'
+                                    target='_blank'
+                                    rel="noreferrer"
+                                >
+                                    Event Link
+                                </a>
+                                <a
+                                    href="https://youtu.be/mTe3vBZtwEY"
+                                    className='YouTube'
+                                    target='_blank'
+                                    rel="noreferrer"
+                                >
+                                    Watch on YouTube
+                                </a>
+                                <a
+                                    href="https://docs.google.com/presentation/d/11-xCZiLLOh2eReCFyqQ2uQ8ukic0jIXpJP67LHjwr2M/edit?usp=sharing&resourcekey=0-IrW8Qr1HbL9HjK74yqbdpw"
+                                    className='slides'
+                                    target='_blank'
+                                    rel="noreferrer"
+                                >
+                                    Slides
+                                </a>
+                                <a
+                                    href="https://forms.gle/Ni9dtnT86VESqaDP7"
+                                    className='submitProject'
+                                    target='_blank'
+                                    rel="noreferrer"
+                                >
+                                    Submit Project
+                                </a>
+                            </div>
+                        </div>
+                        <div className='FWorkshop'>
+                            <img src={workshop4} alt="" />
+                            <h3>State Management</h3>
+                            <p>Speaker: Rashid Wassan</p>
+                            <span>Date: 25th January 2022</span>
+                            <br />
+                            {/* <div>
+                                <a
+                                    href="https://gdsc.community.dev/e/m2q7b7/"
+                                    className='Event'
+                                    target='_blank'
+                                    rel="noreferrer"
+                                >
+                                    Event Link
+                                </a>
+                                <a
+                                    href="https://youtu.be/iv2eVi8AqOs"
+                                    className='YouTube'
+                                    target='_blank'
+                                    rel="noreferrer"
+                                >
+                                    Watch on YouTube
+                                </a>
+                                <a
+                                    href="https://docs.google.com/presentation/d/1nAmNL5Mj9pNSh-7Czl8UYKhfOznQQvvY4ygZXsOUhJ0/edit?usp=sharing"
+                                    className='slides'
+                                    target='_blank'
+                                    rel="noreferrer"
+                                >
+                                    Slides
+                                </a>
+                                <a
+                                    href="https://forms.gle/tEUspe5j3DVGUiez7"
+                                    className='submitProject'
+                                    target='_blank'
+                                    rel="noreferrer"
+                                >
+                                    Submit Project
+                                </a>
+                            </div> */}
+                        </div>
+                        <div className='FWorkshop'>
+                            <img src={workshop5} alt="" />
+                            <h3>Flutter x Firebase</h3>
+                            <p>Speaker: Ahmad Khan</p>
+                            <span>Date: 27th January 2022</span>
+                            <br />
+                            {/* <div>
+                                <a
+                                    href="https://gdsc.community.dev/e/m2q7b7/"
+                                    className='Event'
+                                    target='_blank'
+                                    rel="noreferrer"
+                                >
+                                    Event Link
+                                </a>
+                                <a
+                                    href="https://youtu.be/iv2eVi8AqOs"
+                                    className='YouTube'
+                                    target='_blank'
+                                    rel="noreferrer"
+                                >
+                                    Watch on YouTube
+                                </a>
+                                <a
+                                    href="https://docs.google.com/presentation/d/1nAmNL5Mj9pNSh-7Czl8UYKhfOznQQvvY4ygZXsOUhJ0/edit?usp=sharing"
+                                    className='slides'
+                                    target='_blank'
+                                    rel="noreferrer"
+                                >
+                                    Slides
+                                </a>
+                                <a
+                                    href="https://forms.gle/tEUspe5j3DVGUiez7"
+                                    className='submitProject'
+                                    target='_blank'
+                                    rel="noreferrer"
+                                >
+                                    Submit Project
+                                </a>
+                            </div> */}
+                        </div>
+                        <div className='FWorkshop'>
+                            <img src={workshop6} alt="" />
+                            <h3>API Integration</h3>
+                            <p>Speaker: Emaan Yaqoob</p>
+                            <span>Date: 29th January 2022</span>
+                            <br />
+                            {/* <div>
+                                <a
+                                    href="https://gdsc.community.dev/e/m2q7b7/"
+                                    className='Event'
+                                    target='_blank'
+                                    rel="noreferrer"
+                                >
+                                    Event Link
+                                </a>
+                                <a
+                                    href="https://youtu.be/iv2eVi8AqOs"
+                                    className='YouTube'
+                                    target='_blank'
+                                    rel="noreferrer"
+                                >
+                                    Watch on YouTube
+                                </a>
+                                <a
+                                    href="https://docs.google.com/presentation/d/1nAmNL5Mj9pNSh-7Czl8UYKhfOznQQvvY4ygZXsOUhJ0/edit?usp=sharing"
+                                    className='slides'
+                                    target='_blank'
+                                    rel="noreferrer"
+                                >
+                                    Slides
+                                </a>
+                                <a
+                                    href="https://forms.gle/tEUspe5j3DVGUiez7"
+                                    className='submitProject'
+                                    target='_blank'
+                                    rel="noreferrer"
+                                >
+                                    Submit Project
+                                </a>
+                            </div> */}
+                        </div>
+                    </div>
+                </div>
+                <div className='presentedBy'>
+                    <h2>Presented By</h2>
+                    <img src={Collaborations} alt="" />
                 </div>
             </div>
         </div >
