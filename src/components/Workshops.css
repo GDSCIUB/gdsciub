@@ -5,7 +5,18 @@
   align-items: center;
   margin-bottom: 50px;
 }
-
+.FeaturedWorkshops {
+  margin-bottom: 20px;
+}
+.featuredWorkshop {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+.featuredWorkshop > img {
+  width: 300px;
+  border-radius: 10px;
+}
 .workshops {
   margin-top: 80px;
 }
