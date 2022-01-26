@@ -7,6 +7,7 @@ import workshop3 from '../assets/FlutterBootcamp/Custom Widgets.png';
 import workshop4 from '../assets/FlutterBootcamp/State Management.png';
 import workshop5 from '../assets/FlutterBootcamp/Flutter x Firebase.png';
 import workshop6 from '../assets/FlutterBootcamp/API Integration.png';
+import stateManagement from '../assets/FlutterBootcamp/State Management - RW.pdf';
 
 import './FlutterBootcamp.css';
 
@@ -198,9 +199,9 @@ const FlutterBootcamp = () => {
                             <p>Speaker: Rashid Wassan</p>
                             <span>Date: 25th January 2022</span>
                             <br />
-                            {/* <div>
+                            <div>
                                 <a
-                                    href="https://gdsc.community.dev/e/m2q7b7/"
+                                    href="https://gdsc.community.dev/e/m8mdqm/"
                                     className='Event'
                                     target='_blank'
                                     rel="noreferrer"
@@ -208,7 +209,7 @@ const FlutterBootcamp = () => {
                                     Event Link
                                 </a>
                                 <a
-                                    href="https://youtu.be/iv2eVi8AqOs"
+                                    href="https://youtu.be/s5bisrLQ9h0"
                                     className='YouTube'
                                     target='_blank'
                                     rel="noreferrer"
@@ -216,7 +217,7 @@ const FlutterBootcamp = () => {
                                     Watch on YouTube
                                 </a>
                                 <a
-                                    href="https://docs.google.com/presentation/d/1nAmNL5Mj9pNSh-7Czl8UYKhfOznQQvvY4ygZXsOUhJ0/edit?usp=sharing"
+                                    href={stateManagement}
                                     className='slides'
                                     target='_blank'
                                     rel="noreferrer"
@@ -224,14 +225,14 @@ const FlutterBootcamp = () => {
                                     Slides
                                 </a>
                                 <a
-                                    href="https://forms.gle/tEUspe5j3DVGUiez7"
+                                    href="https://forms.gle/z7JXH1bsds4nJMog6"
                                     className='submitProject'
                                     target='_blank'
                                     rel="noreferrer"
                                 >
                                     Submit Project
                                 </a>
-                            </div> */}
+                            </div>
                         </div>
                         <div className='FWorkshop'>
                             <img src={workshop5} alt="" />

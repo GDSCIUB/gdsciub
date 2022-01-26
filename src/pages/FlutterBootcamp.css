@@ -91,7 +91,7 @@
   border-radius: 10px;
 }
 .FWorkshop > img {
-  width: 300px;
+  width: 100%;
   border-radius: 10px;
 }
 .FWorkshop > h3 {
@@ -106,6 +106,7 @@
   margin-bottom: 10px;
   display: grid;
   grid-template-columns: 120px 180px;
+  justify-content: center;
 }
 .FWorkshop > div > a {
   text-decoration: none;
@@ -132,4 +133,56 @@
 .presentedBy > h2 {
   font-size: 40px;
   margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 425px) {
+  .flutterBootcamp {
+    margin-top: 50px;
+  }
+  .flutterHeader {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+  .flutterHeader > img {
+    height: 150px;
+    width: fit-content;
+    margin-right: 0px;
+    padding: 30px;
+  }
+  .flutterHeader > div > h1 {
+    font-size: 30px;
+  }
+  .flutterBody {
+    padding: 20px;
+  }
+  .flutterWhy > h2 {
+    font-size: 23px;
+  }
+  .flutterWhy > p {
+    font-size: 20px;
+  }
+  .speakers {
+    display: flex;
+    flex-direction: column;
+  }
+  .flutterSpeakers > h2 {
+    font-size: 30px;
+  }
+  .FWorkshops {
+    display: flex;
+    flex-direction: column;
+  }
+  .flutterWorkshops > h2 {
+    font-size: 30px;
+  }
+  .presentedBy > h2 {
+    font-size: 30px;
+  }
+  .presentedBy > img {
+    width: 80vw;
+  }
 }
