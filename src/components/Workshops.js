@@ -7,8 +7,6 @@ import { onSnapshot, collection } from 'firebase/firestore';
 const Workshops = () => {
     const [events, setEvents] = useState([]);
 
-    console.log(events);
-
     useEffect(() =>
         onSnapshot(collection(db, "events"), (snapshot) =>
             setEvents(snapshot.docs.map(doc => doc.data()))

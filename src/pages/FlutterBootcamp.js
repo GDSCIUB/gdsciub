@@ -8,6 +8,7 @@ import workshop4 from '../assets/FlutterBootcamp/State Management.png';
 import workshop5 from '../assets/FlutterBootcamp/Flutter x Firebase.png';
 import workshop6 from '../assets/FlutterBootcamp/API Integration.png';
 import stateManagement from '../assets/FlutterBootcamp/State Management - RW.pdf';
+import APIINTEGRATION from '../assets/FlutterBootcamp/API INTEGRATION.pdf';
 
 import './FlutterBootcamp.css';
 
@@ -240,9 +241,9 @@ const FlutterBootcamp = () => {
                             <p>Speaker: Ahmad Khan</p>
                             <span>Date: 27th January 2022</span>
                             <br />
-                            {/* <div>
+                            <div>
                                 <a
-                                    href="https://gdsc.community.dev/e/m2q7b7/"
+                                    href="https://gdsc.community.dev/e/mrpmp9/"
                                     className='Event'
                                     target='_blank'
                                     rel="noreferrer"
@@ -250,7 +251,7 @@ const FlutterBootcamp = () => {
                                     Event Link
                                 </a>
                                 <a
-                                    href="https://youtu.be/iv2eVi8AqOs"
+                                    href="https://youtu.be/g4b_hd5pOcM"
                                     className='YouTube'
                                     target='_blank'
                                     rel="noreferrer"
@@ -258,7 +259,7 @@ const FlutterBootcamp = () => {
                                     Watch on YouTube
                                 </a>
                                 <a
-                                    href="https://docs.google.com/presentation/d/1nAmNL5Mj9pNSh-7Czl8UYKhfOznQQvvY4ygZXsOUhJ0/edit?usp=sharing"
+                                    href="https://docs.google.com/presentation/d/1epi2IJ9s51RS5VhLvUiqfhcBUz_1PLj6-GAAXRaNFqM/edit?usp=sharing"
                                     className='slides'
                                     target='_blank'
                                     rel="noreferrer"
@@ -266,24 +267,25 @@ const FlutterBootcamp = () => {
                                     Slides
                                 </a>
                                 <a
-                                    href="https://forms.gle/tEUspe5j3DVGUiez7"
+                                    href="https://forms.gle/CUs3At6AHnNjzTPL6"
                                     className='submitProject'
                                     target='_blank'
                                     rel="noreferrer"
                                 >
                                     Submit Project
                                 </a>
-                            </div> */}
+                            </div>
                         </div>
                         <div className='FWorkshop'>
                             <img src={workshop6} alt="" />
                             <h3>API Integration</h3>
-                            <p>Speaker: Emaan Yaqoob</p>
-                            <span>Date: 29th January 2022</span>
+                            <p>Speaker: Rashid Wassan</p>
+                            <span>Date: 30st January 2022</span>
                             <br />
-                            {/* <div>
+                            <div>
                                 <a
-                                    href="https://gdsc.community.dev/e/m2q7b7/"
+                                    href="
+                                    https://gdsc.community.dev/e/mrzn3c/"
                                     className='Event'
                                     target='_blank'
                                     rel="noreferrer"
@@ -291,7 +293,7 @@ const FlutterBootcamp = () => {
                                     Event Link
                                 </a>
                                 <a
-                                    href="https://youtu.be/iv2eVi8AqOs"
+                                    href="https://youtu.be/luUo-16NTSE"
                                     className='YouTube'
                                     target='_blank'
                                     rel="noreferrer"
@@ -299,7 +301,7 @@ const FlutterBootcamp = () => {
                                     Watch on YouTube
                                 </a>
                                 <a
-                                    href="https://docs.google.com/presentation/d/1nAmNL5Mj9pNSh-7Czl8UYKhfOznQQvvY4ygZXsOUhJ0/edit?usp=sharing"
+                                    href={APIINTEGRATION}
                                     className='slides'
                                     target='_blank'
                                     rel="noreferrer"
@@ -307,14 +309,14 @@ const FlutterBootcamp = () => {
                                     Slides
                                 </a>
                                 <a
-                                    href="https://forms.gle/tEUspe5j3DVGUiez7"
+                                    href="https://forms.gle/VmvzQjZbCH9hyypT6"
                                     className='submitProject'
                                     target='_blank'
                                     rel="noreferrer"
                                 >
                                     Submit Project
                                 </a>
-                            </div> */}
+                            </div>
                         </div>
                     </div>
                 </div>
