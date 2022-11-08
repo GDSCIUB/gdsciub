@@ -4,13 +4,12 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import Overview from './components/Overview';
 import Team from './components/Team';
+import TeamPrev from './components/TeamPrev';
+
 import Technologies from './components/Technologies';
 import Login from './dashboard/Login';
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route
-} from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import AdminPanel from './dashboard/AdminPanel';
 import { useEffect, useState } from 'react';
 import { auth } from './Firebase';
@@ -37,8 +36,9 @@ function App() {
   }, [])
 
   return (
+    <BrowserRouter>
     <div className="App">
-      <Router>
+    
         <Routes>
           <Route path="/" element={
             <>
@@ -59,6 +59,16 @@ function App() {
             </>
           }
           />
+          
+          <Route path="/TeamPrev" exact element={
+            <>
+              <Header />
+              <TeamPrev />
+              <Footer />
+            </>
+          }
+                  
+          />
           <Route path="/FlutterBootcamp" exact element={
             <>
               <Header />
@@ -66,12 +76,15 @@ function App() {
               <Footer />
             </>
           }
+                  
           />
           <Route path="/dashboard" exact element={user ? <AdminPanel /> : <Login />} />
           <Route path="/dashboard/Events" exact element={user ? <Events /> : <Login />} />
         </Routes>
-      </Router>
+      
     </div >
+    </BrowserRouter>
+  
   );
 }
 

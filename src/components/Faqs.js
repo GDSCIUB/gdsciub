@@ -1,9 +1,10 @@
 import React from 'react';
 import './Faqs.css';
-
+ 
 const Faqs = () => {
     return (
         <div className="faqs" id="Faqs">
+         
             <div>
                 <h1>Frequently Asked Questions</h1>
             </div>
