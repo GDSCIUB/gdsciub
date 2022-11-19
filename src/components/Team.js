@@ -1,12 +1,33 @@
-import React from 'react';
+ import React from 'react';
 import './Team.css';
 import TeamCard from './TeamCard';
-import TeamMembers from './TeamMembers';
+import './Workshops.css';
+// import TeamMembers from './TeamMembers';
+import adil from '../assets/images/adil.png';
+import tahir from '../assets/images/tahir.png';
+import ayshaco from '../assets/images/ayshaco.png';
+import manahil from '../assets/images/manahil.jpg';
+import aqsa from '../assets/images/aqsa.png';
+import ahtesham from '../assets/images/ahtesham.jpg';
+import dowd from '../assets/images/dowd.jpg';
+import murtaza from '../assets/images/murtaza.jpg';
+import ayesha from '../assets/images/ayesha.jpg';
+import waleed from '../assets/images/waleed.jpg';
+import huzafa from '../assets/images/huzafa.jpg';
+import hassan from '../assets/images/hassan.jpg';
+import hamna from '../assets/images/hamna.jpg';
+import adurrahman from '../assets/images/adurrahman.jpg';
+import khadija from '../assets/images/khadija.jpg';
+import haroon from '../assets/images/haroon.jpg';
+import azba from '../assets/images/azba.jpg';
 
+import {Link } from "react-router-dom";
 const Team = () => {
     return (
+        
         <div className="team" id="Team">
             <div className="team__title">
+                
                 <h1>Meet Our Team</h1>
                 <p>Passionate students are driving the success of the program.</p>
             </div>
@@ -15,120 +36,196 @@ const Team = () => {
                     name="Sharjeel Yunus"
                     clas="Computer Science"
                     img="https://firebasestorage.googleapis.com/v0/b/gdsciub.appspot.com/o/Team%2022%2Fsharjeel-sq.jpg?alt=media&token=a07aee2d-3239-4daf-8f17-f30ae7d14f45"
-                    role="Community Lead"
+                    role="Former Lead"
                     web="https://www.sharjeelyunus.me/"
                     github="https://github.com/sharjeelyunus"
                     linkedIn="https://www.linkedin.com/in/sharjeel-yunus/"
                 />
                 <TeamCard
-                    name="Aadil Saeed"
-                    clas="Computer Science"
-                    img="https://firebasestorage.googleapis.com/v0/b/gdsciub.appspot.com/o/Team%2022%2Faadil.jpg?alt=media&token=57e0cfbc-cc21-4f01-b284-c5c6b408852d"
-                    role="Mamagement Lead"
-                    web="https://www.facebook.com/profile.php?id=100005023003882"
-                    github="https://github.com/aadilsaeed"
-                    linkedIn="https://www.linkedin.com/in/aadil-saeed-9b255021b"
+                    name=" Aadil Hamza"
+                    clas="Artificial Intelligence"
+                    img={adil}
+                    role="GDSC-Lead Chapter 2020-2023"
+                    web="http://instagram.com/aadilhamza.digital"
+                    github=""
+                    linkedIn="https://www.linkedin.com/in/aadilhamzagdsc/"
                 />
                 <TeamCard
-                    name="Arbaz Sukhera"
+                    name="Ayshaa Javaid"
+                    clas="Artificial Intelligence"
+                    img={ayshaco}
+                    role="Co-Lead"
+                    web=""
+                    github=""
+                    linkedIn=""
+                />
+
+                <TeamCard
+                    name="Tahir Habib"
+                    clas="Artificial Intelligence"
+                    img={tahir}
+                    role="Management Lead"
+                    web="https://www.instagram.com/tahirhabibsumra/"
+                    github="https://github.com/tahir153"
+                    linkedIn="https://www.linkedin.com/in/tahir-habib-0122b6201/"
+                />
+
+            </div>
+            <div className="teamCards cardsrow2">
+                <TeamCard
+                    name="Manahil Ahmad"
+                    clas="Data Science"
+                    img={manahil}
+                    role="Women in Tech Lead"
+                    web="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQHpcufIA5gXEwAAAYRRturImd_eQ_fWjvup_gPCFovzKccubXwhO_V5wMG2UvpwkFv4ogt1T3aXlJPDpHXLNeCQpKsZdDQuEt3s1ElpEL_q8xIXZPnMCEz51UuExMjUeekOJKo=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fmanahil-ahmad-83891524b"
+                    github=""
+                    linkedIn="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQHpcufIA5gXEwAAAYRRturImd_eQ_fWjvup_gPCFovzKccubXwhO_V5wMG2UvpwkFv4ogt1T3aXlJPDpHXLNeCQpKsZdDQuEt3s1ElpEL_q8xIXZPnMCEz51UuExMjUeekOJKo=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fmanahil-ahmad-83891524b"
+                />
+                <TeamCard
+                    name="Aqsa Rouf"
+                    clas="Information Technology"
+                    img={aqsa}
+                    role="Team Social Media"
+                    web="https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fpublic-profile%2Fsettings&trk=login_reg_redirect"
+                    github=""
+                    linkedIn="https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fpublic-profile%2Fsettings&trk=login_reg_redirect"
+                />
+                <TeamCard
+                    name="Muhammad Ahtesham Arshad"
+                    clas="Software Engineering"
+                    img={ahtesham}
+                    role="Web .Dev Lead"
+                    web="https://portfolioahtesham.web.app/"
+                    github="https://github.com/ahteshamweb"
+                    linkedIn="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQFVJrLH7gobtgAAAYRRxGvQo8YUsp93RMmz28t5WXOdNVeKC5RISfaHL_35LqLfymHhRNo2KEMaO_jkBlusdzUzOfz78NPl4MfF_CHcyKQTtwLgBhXe8nP64MBdFLiHRRdhsmQ=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fahtesham-dev-480046250"
+                />
+                <TeamCard
+                    name="Dawood Faisal"
                     clas="Computer Science"
-                    img="https://firebasestorage.googleapis.com/v0/b/gdsciub.appspot.com/o/Team%2022%2Farbaz2.jpeg?alt=media&token=4413702a-f065-4fbb-acb1-a2c01b3f7512"
-                    role="Marketing Lead"
-                    web="https://www.instagram.com/arbaz_sukhera/"
-                    github="https://github.com/ArbazSukhera"
-                    linkedIn="https://www.linkedin.com/in/arbaz-sukhera-a9b451220/"
+                    img={dowd}
+                    role="Graphics Lead"
+                    web="http://Instagram.com/hey_dawood"
+                    github="https://github.com/heydawood"
+                    linkedIn="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQHgksCQTAaRnQAAAYRRy3Cw3nYpCzTgsIcnQZhfHVKb978mGW7byhJqQ8b-AVCv05gQy_X2KBDartD8XOmCvhXBey-cd0ukMAW7xKrbuoM5jIMhwvr61dOlP7YlHR_yRf0VSx8=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fheydawood"
                 />
             </div>
             <div className="teamCards cardsrow2">
                 <TeamCard
-                    name="Eisha Tir Razia"
+                    name="murtaza Aslam"
+                    clas="Computer Science"
+                    img={murtaza}
+                    role="App .Dev Lead"
+                    web=""
+                    github="https://github.com/murtaza619"
+                    linkedIn=" "
+                />
+                <TeamCard
+                    name="Ayesha Javed"
+                    clas="Management Sciences"
+                    img={ayesha}
+                    role="Team Management"
+                    web="https://www.linkedin.com/in/ayesha-javed-6619041bb"
+                    github=""
+                    linkedIn="https://www.linkedin.com/in/ayesha-javed-6619041bb"
+                />
+                
+                <TeamCard
+                    name="Muhammad Waleed Hassan"
+                    clas="Data Science"
+                    img={waleed}
+                    role="Data Science & ML Lead"
+                    web="https://www.credly.com/users/waleed-hassan.b2bcda95"
+                    github="https://github.com/waleedhassan304"
+                    linkedIn="https://www.linkedin.com/in/muhammad-waleed-hassan-5329741a3"
+                />
+
+                <TeamCard
+                    name="Huzaifa Nawaz"
                     clas="Information Technology"
-                    img="https://firebasestorage.googleapis.com/v0/b/gdsciub.appspot.com/o/Team%2022%2FEisha%20Ejaz1.jpg?alt=media&token=f35ff615-5b59-4fcf-9f7b-6965f3bbd794"
-                    role="Publication Lead"
-                    web="https://instagram.com/eishaejaz"
-                    github="https://github.com/eishaejaz"
-                    linkedIn="https://www.linkedin.com/in/eisha-ejaz-2a104821b"
+                    img={huzafa}
+                    role="Team Social Media"
+                    web="https://www.instagram.com/huzaifa1363/"
+                    github="https://github.com/huzaifanawaz"
+                    linkedIn="https://www.linkedin.com/in/huzaifa-nawaz-542048254"
                 />
-                <TeamCard
-                    name="Aslam Sarfraz"
-                    clas="Computer Science"
-                    img="https://firebasestorage.googleapis.com/v0/b/gdsciub.appspot.com/o/Team%2022%2FAslam%20Sarfraz.jpg?alt=media&token=735be25a-2763-45b1-9b91-dfcc42bf56f3"
-                    role="Web Dev Lead"
-                    web="https://facebook.com/aslambaba91r"
-                    github="https://github.com/aslambaba"
-                    linkedIn="https://www.linkedin.com/in/aslamsarfraz"
-                />
-                <TeamCard
-                    name="Emaan Yaqoob"
-                    clas="Computer Science"
-                    img="https://firebasestorage.googleapis.com/v0/b/gdsciub.appspot.com/o/Team%2022%2FEman%20Yaqoob1.jpg?alt=media&token=5071923d-59d7-494f-8cd1-1d175af74834"
-                    role="App Dev Lead"
-                    web="https://www.instagram.com/eman.yaqub/"
-                    github="https://github.com/eeimaan"
-                    linkedIn="https://www.linkedin.com/in/emaanyaqub/"
-                />
-                <TeamCard
-                    name="Abdul Wahab Siddiqui"
-                    clas="Computer Science"
-                    img="https://firebasestorage.googleapis.com/v0/b/gdsciub.appspot.com/o/Team%2022%2Fdp%20-%20Siddiqui's%20Life.jpg?alt=media&token=0c091828-e645-4754-974e-f75c9abbf47d"
-                    role="Graphics Lead"
-                    web="https://www.instagram.com/abdulwahabsdq/"
-                    github="https://github.com/wahabsiddiqui"
-                    linkedIn="https://www.linkedin.com/in/abdulwahabsiddiqui9211"
-                />
+                
             </div>
-            <div className="otherTeamMemebers">
-                <h2>Other Team Members</h2>
-                <div className="team__members">
-                    <div className="otherMembers">
-                        <TeamMembers
-                            name="Ali Rehman"
-                            clas="Computer Science"
-                            role="Publication"
-                            github="https://github.com/Thedanreturns"
-                            linkedIn="https://www.linkedin.com/in/ali-rehman-23004821b/"
-                        />
-                        <TeamMembers
-                            name="Hamza Bashir"
-                            clas="Computer Science"
-                            role="Web Dev"
-                            github="https://github.com/DEADHEAD652"
-                            linkedIn="https://www.linkedin.com/in/hamza-malik-74a06621b"
-                        />
-                    </div>
-                    <div className="otherMembers">
-                        <TeamMembers
-                            name="Saman Mehmood"
-                            role="Web Dev"
-                            github="https://github.com/SamanMahmood"
-                            linkedIn="https://www.linkedin.com/in/saman-mahmood-a8187120a/"
-                        />
-                        <TeamMembers
-                            name="Muhammad Soban"
-                            role="Web Dev"
-                            github="https://github.com/sobankhan12"
-                            linkedIn="https://www.linkedin.com/in/muhammad-soban-601570183/"
-                        />
-                    </div>
-                </div>
-                <div className="otherMembers teamrow2">
-                    <TeamMembers
-                        name="Rashid Ghafoor"
-                        clas="Computer Science"
-                        role="Web Dev"
-                        github="https://github.com/RashidGhafoor"
-                        linkedIn="https://www.linkedin.com/in/rashid-ghafoor-0abb40177/"
-                    />
-                    <TeamMembers
-                        name="Abdul Rehman"
-                        role="Web Dev"
-                        github="https://github.com/dani-nawaz"
-                        linkedIn="https://www.linkedin.com/in/abdul-rehman-nawaz-87264421b/"
-                    />
-                </div>
+
+            <div className="teamCards cardsrow2">
+                
+                <TeamCard
+                    name="Hassan Farooq"
+                    clas="Information Systems"
+                    img={hassan}
+                    role="Team Management"
+                    web="https://www.instagram.com/ig._hassan/"
+                    github=""
+                    linkedIn="https://www.linkedin.com/in/hassan-farooq-9a6688250"
+                />
+
+                <TeamCard
+                    name="Hamna Qaseem"
+                    clas="Data Science"
+                    img={hamna}
+                    role="Associate Women in Tech"
+                    web="https://www.Instagram.com/hamna_pythonista"
+                    github="https://github.com/Hamna12"
+                    linkedIn="https://www.linkedin.com/in/hamna-qaseem-3456bb1b8/"
+                />
+
+                <TeamCard
+                    name="Abdur Rehman Bin Shafqat"
+                    clas="Artificial Intelligence"
+                    img={adurrahman}
+                    role="Publication Lead"
+                    web=""
+                    github=""
+                    linkedIn=""
+                />
+
+                <TeamCard
+                    name="Khadija Hashmi"
+                    clas="Computer Science"
+                    img={khadija}
+                    role="Web .Dev Team"
+                    web=""
+                    github="https://github.com/khadijahashmi2?tab=repositories"
+                    linkedIn=""
+                />
+
+            </div>
+            
+            <div className="teamCards cardsrow2">
+                
+                <TeamCard
+                    name="Muhammad Haroon Arshad"
+                    clas="Computer Science"
+                    img={haroon}
+                    role="Management Team"
+                    web="https://www.instagram.com/haroon_malik786"
+                    github="https://github.com/Haroon-coding"
+                    linkedIn="www.linkedin.com/in/786hacking"
+                />
+
+                <TeamCard
+                    name="Azba Ramzan"
+                    clas="Management Science"
+                    img={azba}
+                    role="Marketing Lead"
+                    web="#"
+                    github="#"
+                    linkedIn="#"
+                />
+
+            </div>
+            <div className="buttonteam">
+                <button className="custombtn">
+                <Link to="/TeamPrev" className="teambtntextcolor">GDSC IUB Chapter Team 2020-2021</Link>
+                </button>
             </div>
 
         </div>
+
     )
 }
 
