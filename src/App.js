@@ -37,8 +37,8 @@ function App() {
 
   return (
     <BrowserRouter>
-    <div className="App">
-    
+      <div className="App">
+
         <Routes>
           <Route path="/" element={
             <>
@@ -59,7 +59,7 @@ function App() {
             </>
           }
           />
-          
+
           <Route path="/TeamPrev" exact element={
             <>
               <Header />
@@ -67,7 +67,7 @@ function App() {
               <Footer />
             </>
           }
-                  
+
           />
           <Route path="/FlutterBootcamp" exact element={
             <>
@@ -76,15 +76,15 @@ function App() {
               <Footer />
             </>
           }
-                  
+
           />
           <Route path="/dashboard" exact element={user ? <AdminPanel /> : <Login />} />
           <Route path="/dashboard/Events" exact element={user ? <Events /> : <Login />} />
         </Routes>
-      
-    </div >
+
+      </div >
     </BrowserRouter>
-  
+
   );
 }
 
