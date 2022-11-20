@@ -1,4 +1,4 @@
- import React from 'react';
+import React from 'react';
 import './Team.css';
 import TeamCard from './TeamCard';
 import './Workshops.css';
@@ -21,33 +21,22 @@ import khadija from '../assets/images/khadija.jpg';
 import haroon from '../assets/images/haroon.jpg';
 import azba from '../assets/images/azba.jpg';
 
-import {Link } from "react-router-dom";
 const Team = () => {
     return (
-        
+
         <div className="team" id="Team">
             <div className="team__title">
-                
+
                 <h1>Meet Our Team</h1>
                 <p>Passionate students are driving the success of the program.</p>
             </div>
             <div className="teamCards">
-                <TeamCard
-                    name="Sharjeel Yunus"
-                    clas="Computer Science"
-                    img="https://firebasestorage.googleapis.com/v0/b/gdsciub.appspot.com/o/Team%2022%2Fsharjeel-sq.jpg?alt=media&token=a07aee2d-3239-4daf-8f17-f30ae7d14f45"
-                    role="Former Lead"
-                    web="https://www.sharjeelyunus.me/"
-                    github="https://github.com/sharjeelyunus"
-                    linkedIn="https://www.linkedin.com/in/sharjeel-yunus/"
-                />
                 <TeamCard
                     name=" Aadil Hamza"
                     clas="Artificial Intelligence"
                     img={adil}
                     role="GDSC-Lead Chapter 2020-2023"
                     web="http://instagram.com/aadilhamza.digital"
-                    github=""
                     linkedIn="https://www.linkedin.com/in/aadilhamzagdsc/"
                 />
                 <TeamCard
@@ -55,9 +44,6 @@ const Team = () => {
                     clas="Artificial Intelligence"
                     img={ayshaco}
                     role="Co-Lead"
-                    web=""
-                    github=""
-                    linkedIn=""
                 />
 
                 <TeamCard
@@ -69,16 +55,12 @@ const Team = () => {
                     github="https://github.com/tahir153"
                     linkedIn="https://www.linkedin.com/in/tahir-habib-0122b6201/"
                 />
-
-            </div>
-            <div className="teamCards cardsrow2">
                 <TeamCard
                     name="Manahil Ahmad"
                     clas="Data Science"
                     img={manahil}
                     role="Women in Tech Lead"
                     web="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQHpcufIA5gXEwAAAYRRturImd_eQ_fWjvup_gPCFovzKccubXwhO_V5wMG2UvpwkFv4ogt1T3aXlJPDpHXLNeCQpKsZdDQuEt3s1ElpEL_q8xIXZPnMCEz51UuExMjUeekOJKo=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fmanahil-ahmad-83891524b"
-                    github=""
                     linkedIn="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQHpcufIA5gXEwAAAYRRturImd_eQ_fWjvup_gPCFovzKccubXwhO_V5wMG2UvpwkFv4ogt1T3aXlJPDpHXLNeCQpKsZdDQuEt3s1ElpEL_q8xIXZPnMCEz51UuExMjUeekOJKo=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fmanahil-ahmad-83891524b"
                 />
                 <TeamCard
@@ -87,7 +69,6 @@ const Team = () => {
                     img={aqsa}
                     role="Team Social Media"
                     web="https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fpublic-profile%2Fsettings&trk=login_reg_redirect"
-                    github=""
                     linkedIn="https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fpublic-profile%2Fsettings&trk=login_reg_redirect"
                 />
                 <TeamCard
@@ -108,16 +89,12 @@ const Team = () => {
                     github="https://github.com/heydawood"
                     linkedIn="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQHgksCQTAaRnQAAAYRRy3Cw3nYpCzTgsIcnQZhfHVKb978mGW7byhJqQ8b-AVCv05gQy_X2KBDartD8XOmCvhXBey-cd0ukMAW7xKrbuoM5jIMhwvr61dOlP7YlHR_yRf0VSx8=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fheydawood"
                 />
-            </div>
-            <div className="teamCards cardsrow2">
                 <TeamCard
                     name="murtaza Aslam"
                     clas="Computer Science"
                     img={murtaza}
                     role="App .Dev Lead"
-                    web=""
                     github="https://github.com/murtaza619"
-                    linkedIn=" "
                 />
                 <TeamCard
                     name="Ayesha Javed"
@@ -125,10 +102,9 @@ const Team = () => {
                     img={ayesha}
                     role="Team Management"
                     web="https://www.linkedin.com/in/ayesha-javed-6619041bb"
-                    github=""
                     linkedIn="https://www.linkedin.com/in/ayesha-javed-6619041bb"
                 />
-                
+
                 <TeamCard
                     name="Muhammad Waleed Hassan"
                     clas="Data Science"
@@ -148,11 +124,6 @@ const Team = () => {
                     github="https://github.com/huzaifanawaz"
                     linkedIn="https://www.linkedin.com/in/huzaifa-nawaz-542048254"
                 />
-                
-            </div>
-
-            <div className="teamCards cardsrow2">
-                
                 <TeamCard
                     name="Hassan Farooq"
                     clas="Information Systems"
@@ -192,11 +163,6 @@ const Team = () => {
                     github="https://github.com/khadijahashmi2?tab=repositories"
                     linkedIn=""
                 />
-
-            </div>
-            
-            <div className="teamCards cardsrow2">
-                
                 <TeamCard
                     name="Muhammad Haroon Arshad"
                     clas="Computer Science"
@@ -212,16 +178,16 @@ const Team = () => {
                     clas="Management Science"
                     img={azba}
                     role="Marketing Lead"
-                    web="#"
-                    github="#"
-                    linkedIn="#"
                 />
-
             </div>
             <div className="buttonteam">
-                <button className="custombtn">
-                <Link to="/TeamPrev" className="teambtntextcolor">GDSC IUB Chapter Team 2020-2021</Link>
-                </button>
+
+                <a href="/Team2021" className="teambtntextcolor">
+                    <button className="custombtn">
+                        GDSC IUB Chapter Team 2020-2021
+                    </button>
+                </a>
+
             </div>
 
         </div>
