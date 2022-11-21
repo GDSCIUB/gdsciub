@@ -179,13 +179,13 @@
   border-radius: 10px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 667px) {
   .team {
     padding: 20px;
   }
   .teamCards {
     flex-direction: column;
-    padding: 10px;
+    
     justify-content: center;
     align-items: center;
   }
