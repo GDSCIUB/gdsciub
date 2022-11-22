@@ -182,7 +182,7 @@ const Team = () => {
             </div>
             <div className="buttonteam">
 
-                <a href="/Team2021" className="teambtntextcolor">
+                <a href="/TeamPrev" className="teambtntextcolor">
                     <button className="custombtn">
                         GDSC IUB Chapter Team 2020-2021
                     </button>

@@ -103,7 +103,7 @@
   margin-top: -30px;
 }
 
-@media only screen and (max-width: 667px) {
+@media only screen and (max-width: 668px) {
   .team {
     padding: 20px;
   }
@@ -138,4 +138,11 @@
   .teamrow2 {
     margin-top: 0px;
   }
+}
+
+@media only screen and (max-width: 740px) {
+  .team {
+    padding: 15px;
+  }
+  
 }
