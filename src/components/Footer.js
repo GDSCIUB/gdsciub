@@ -9,7 +9,6 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 import TwitterIcon from '@material-ui/icons/Twitter';
 
 import './Footer.css';
-
 const Footer = () => {
     return (
         <div className="footer">

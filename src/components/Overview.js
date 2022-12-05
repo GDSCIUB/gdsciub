@@ -7,6 +7,7 @@ import FeatureCard from './FeatureCard';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLightbulb, faRocket, faUsers } from '@fortawesome/free-solid-svg-icons'
 
+
 const Overview = () => {
     return (
         <div className="gdsc__overview" id="Overview">

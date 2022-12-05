@@ -1,5 +1,4 @@
 import React from 'react';
-
 const Event = ({ img, title, date, time, venue, desc, rsvp }) => {
     return (
         <div className="event">

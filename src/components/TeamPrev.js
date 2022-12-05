@@ -2,6 +2,7 @@ import React from 'react'
 import './TeamPrev.css';
 import TeamCard from './TeamCard';
 import TeamMembers from './TeamMembers';
+
 const TeamPrev = () => {
     return (
         <div className="team" id="Team">

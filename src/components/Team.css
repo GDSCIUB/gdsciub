@@ -179,7 +179,7 @@
   border-radius: 10px;
 }
 
-@media only screen and (max-width: 668px) {
+@media only screen and (max-width: 600px) {
   .team {
     padding: 20px;
   }

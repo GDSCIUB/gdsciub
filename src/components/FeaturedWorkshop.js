@@ -1,7 +1,6 @@
 import React from 'react';
 import flutterBootcamp from '../assets/FlutterBootcamp/Timeline - Flutter Bootcamp.png';
 import './Workshops.css';
-
 const FeaturedWorkshop = () => {
     return (
         <div className="featured_workshops" id="Workshops">
