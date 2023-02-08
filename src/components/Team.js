@@ -9,7 +9,7 @@ import ayshaco from '../assets/images/ayshaco.png';
 import manahil from '../assets/images/manahil.jpg';
  
 import ahtesham from '../assets/images/ahtesham.jpg';
-import murtaza from '../assets/images/murtaza.jpg';
+ 
 import ayesha from '../assets/images/ayesha.jpg';
 import waleed from '../assets/images/waleed.jpg';
 import hassan from '../assets/images/hassan.jpg';
@@ -71,13 +71,6 @@ const Team = () => {
                     linkedIn="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQFVJrLH7gobtgAAAYRRxGvQo8YUsp93RMmz28t5WXOdNVeKC5RISfaHL_35LqLfymHhRNo2KEMaO_jkBlusdzUzOfz78NPl4MfF_CHcyKQTtwLgBhXe8nP64MBdFLiHRRdhsmQ=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fahtesham-dev-480046250"
                 />
                 
-                <TeamCard
-                    name="murtaza Aslam"
-                    clas="Computer Science"
-                    img={murtaza}
-                    role="App .Dev Lead"
-                    github="https://github.com/murtaza619"
-                />
                 <TeamCard
                     name="Ayesha Javed"
                     clas="Management Sciences"
