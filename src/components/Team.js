@@ -7,17 +7,14 @@ import adil from '../assets/images/adil.png';
 import tahir from '../assets/images/tahir.png';
 import ayshaco from '../assets/images/ayshaco.png';
 import manahil from '../assets/images/manahil.jpg';
-import aqsa from '../assets/images/aqsa.png';
+ 
 import ahtesham from '../assets/images/ahtesham.jpg';
-import dowd from '../assets/images/dowd.jpg';
 import murtaza from '../assets/images/murtaza.jpg';
 import ayesha from '../assets/images/ayesha.jpg';
 import waleed from '../assets/images/waleed.jpg';
-import huzafa from '../assets/images/huzafa.jpg';
 import hassan from '../assets/images/hassan.jpg';
 import hamna from '../assets/images/hamna.jpg';
-import adurrahman from '../assets/images/adurrahman.jpg';
-import khadija from '../assets/images/khadija.jpg';
+ 
 import haroon from '../assets/images/haroon.jpg';
 import azba from '../assets/images/azba.jpg';
 
@@ -63,14 +60,7 @@ const Team = () => {
                     web="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQHpcufIA5gXEwAAAYRRturImd_eQ_fWjvup_gPCFovzKccubXwhO_V5wMG2UvpwkFv4ogt1T3aXlJPDpHXLNeCQpKsZdDQuEt3s1ElpEL_q8xIXZPnMCEz51UuExMjUeekOJKo=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fmanahil-ahmad-83891524b"
                     linkedIn="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQHpcufIA5gXEwAAAYRRturImd_eQ_fWjvup_gPCFovzKccubXwhO_V5wMG2UvpwkFv4ogt1T3aXlJPDpHXLNeCQpKsZdDQuEt3s1ElpEL_q8xIXZPnMCEz51UuExMjUeekOJKo=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fmanahil-ahmad-83891524b"
                 />
-                <TeamCard
-                    name="Aqsa Rouf"
-                    clas="Information Technology"
-                    img={aqsa}
-                    role="Team Social Media"
-                    web="https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fpublic-profile%2Fsettings&trk=login_reg_redirect"
-                    linkedIn="https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fpublic-profile%2Fsettings&trk=login_reg_redirect"
-                />
+                 
                 <TeamCard
                     name="Muhammad Ahtesham Arshad"
                     clas="Software Engineering"
@@ -80,15 +70,7 @@ const Team = () => {
                     github="https://github.com/ahteshamweb"
                     linkedIn="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQFVJrLH7gobtgAAAYRRxGvQo8YUsp93RMmz28t5WXOdNVeKC5RISfaHL_35LqLfymHhRNo2KEMaO_jkBlusdzUzOfz78NPl4MfF_CHcyKQTtwLgBhXe8nP64MBdFLiHRRdhsmQ=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fahtesham-dev-480046250"
                 />
-                <TeamCard
-                    name="Dawood Faisal"
-                    clas="Computer Science"
-                    img={dowd}
-                    role="Graphics Lead"
-                    web="http://Instagram.com/hey_dawood"
-                    github="https://github.com/heydawood"
-                    linkedIn="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQHgksCQTAaRnQAAAYRRy3Cw3nYpCzTgsIcnQZhfHVKb978mGW7byhJqQ8b-AVCv05gQy_X2KBDartD8XOmCvhXBey-cd0ukMAW7xKrbuoM5jIMhwvr61dOlP7YlHR_yRf0VSx8=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fheydawood"
-                />
+                
                 <TeamCard
                     name="murtaza Aslam"
                     clas="Computer Science"
@@ -115,15 +97,7 @@ const Team = () => {
                     linkedIn="https://www.linkedin.com/in/muhammad-waleed-hassan-5329741a3"
                 />
 
-                <TeamCard
-                    name="Huzaifa Nawaz"
-                    clas="Information Technology"
-                    img={huzafa}
-                    role="Team Social Media"
-                    web="https://www.instagram.com/huzaifa1363/"
-                    github="https://github.com/huzaifanawaz"
-                    linkedIn="https://www.linkedin.com/in/huzaifa-nawaz-542048254"
-                />
+              
                 <TeamCard
                     name="Hassan Farooq"
                     clas="Information Systems"
@@ -143,26 +117,8 @@ const Team = () => {
                     github="https://github.com/Hamna12"
                     linkedIn="https://www.linkedin.com/in/hamna-qaseem-3456bb1b8/"
                 />
-
-                <TeamCard
-                    name="Abdur Rehman Bin Shafqat"
-                    clas="Artificial Intelligence"
-                    img={adurrahman}
-                    role="Publication Lead"
-                    web=""
-                    github=""
-                    linkedIn=""
-                />
-
-                <TeamCard
-                    name="Khadija Hashmi"
-                    clas="Computer Science"
-                    img={khadija}
-                    role="Web .Dev Team"
-                    web=""
-                    github="https://github.com/khadijahashmi2?tab=repositories"
-                    linkedIn=""
-                />
+ 
+ 
                 <TeamCard
                     name="Muhammad Haroon Arshad"
                     clas="Computer Science"
