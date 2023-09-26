@@ -12,9 +12,9 @@ export default function About() {
           <BsRocketTakeoffFill size={50} color="rgb(85, 125, 191)" />
           <h2>Concept of GDSC</h2>
           <p>
-            The GDSC program is a grassroot channel through which Google
-            provides mobile and web development skills for students towards
-            employability.
+            GDSC program is a grassroot channel through which Google provides
+            mobile and web development skills for students and guide them
+            towards employability.
           </p>
         </div>
         <div className={classes.why}>
@@ -22,8 +22,8 @@ export default function About() {
           <h2>Why GDSC?</h2>
           <p>
             For students to learn development skills, solve problems through
-            technology, lead others and inspire them to be world-class
-            developers and changemakers.
+            technology, lead and inspire others to be world-class developers and
+            changemakers in the society.
           </p>
         </div>
         <div className={classes.audience}>
@@ -32,7 +32,7 @@ export default function About() {
           <p>
             GDSC activities are targeted at University students and any others
             including faculty members who want to learn development skills &
-            work to solve real-life problems.
+            work to solve real-life problems using technology.
           </p>
         </div>
       </div>

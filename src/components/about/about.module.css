@@ -25,6 +25,12 @@
 .top > div > * {
   margin: 7px 0;
 }
+.top p {
+  color: rgb(41, 40, 40, 0.6);
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+}
 .membership {
   border: 1px solid transparent;
   background-color: rgb(47, 91, 231);
