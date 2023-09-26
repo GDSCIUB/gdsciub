@@ -3,6 +3,7 @@
   justify-content: center;
   align-items: center;
   height: 80vh;
+  width: 100vw;
 }
 .banner > div {
   width: 40%;
@@ -50,4 +51,39 @@
   background-size: 90%;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+/* 
+  Media Queries
+*/
+@media (max-width: 880px) {
+  .banner > div {
+    width: 45%;
+    height: 400px;
+  }
+  .gdsc h2,
+  .gdsc p {
+    margin-bottom: 30px;
+    margin-right: 20px;
+  }
+}
+@media (max-width: 600px) {
+  .banner {
+    flex-direction: column;
+    height: 100vh;
+  }
+  .banner > div {
+    width: 95%;
+    height: 400px;
+  }
+  .gdsc h1 {
+    font-size: 1.5rem;
+  }
+  .gdsc h2 {
+    font-size: 1.2rem;
+  }
+  .gdsc p {
+    margin-right: 0px;
+    font-size: 1.1rem;
+  }
 }
