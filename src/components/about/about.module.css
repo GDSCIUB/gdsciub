@@ -1,0 +1,52 @@
+.about {
+  font-family: sans-serif;
+  margin: 100px 0;
+}
+.top {
+  margin: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.top > div {
+  max-width: 320px;
+  max-height: 200px;
+  margin: 20px;
+  border: 1px solid transparent;
+  box-shadow: 0px 0px 15px -3px rgba(0, 0, 0, 0.55);
+  border-radius: 1rem;
+  padding: 20px 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.top > div > * {
+  margin: 7px 0;
+}
+.top p {
+  color: rgb(41, 40, 40, 0.6);
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+}
+.membership {
+  border: 1px solid transparent;
+  background-color: rgb(47, 91, 231);
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  box-shadow: 0px 16px 31px -6px rgba(0, 0, 0, 0.3);
+  max-width: 230px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

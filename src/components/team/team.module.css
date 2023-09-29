@@ -1,0 +1,58 @@
+.team {
+  margin: 100px 0;
+  font-family: sans-serif;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.team h1 {
+  margin: 60px 10px;
+  text-align: center;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.cards > * {
+  margin: 30px 20px;
+  height: 330px;
+  width: 250px;
+  text-align: center;
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.cards > div > div {
+  height: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.cards > div > div > * {
+  margin: 0px 10px;
+}
+.img {
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.name {
+  color: rgb(95, 99, 104);
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.role {
+  margin-bottom: 10px;
+}
+.dept,
+.role {
+  font-size: 0.9rem;
+  color: rgb(95, 99, 104);
+}

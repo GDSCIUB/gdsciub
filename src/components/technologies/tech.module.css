@@ -1,0 +1,44 @@
+.tech {
+  margin: 100px 0;
+  font-family: sans-serif;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.tech h1 {
+  margin: 60px 10px;
+  text-align: center;
+}
+.niches {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 50px 0;
+}
+.niches p {
+  color: rgba(85, 82, 82, 0.9);
+}
+.niches > * {
+  max-width: 700px;
+}
+.niches > div {
+  min-height: 150px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+/* 
+    Media Queries
+*/
+@media (max-width: 1100px) {
+  .rev {
+    flex-direction: column-reverse;
+  }
+}

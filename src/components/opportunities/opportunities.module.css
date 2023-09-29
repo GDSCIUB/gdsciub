@@ -1,0 +1,30 @@
+.opp {
+  margin: 100px 0;
+  font-family: sans-serif;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.opp h1 {
+  margin: 60px 10px;
+  text-align: center;
+}
+.bullets {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.bullets > * {
+  margin: 20px;
+  max-width: 500px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icons {
+  margin-right: 10px;
+}

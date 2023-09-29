@@ -1,0 +1,18 @@
+.footer {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+}
+.footer > * {
+  margin: 10px;
+}
+.footer > div > * {
+  margin: 10px;
+  color: rgb(95, 99, 104);
+}
+.footer p {
+  color: rgb(95, 99, 104);
+}
