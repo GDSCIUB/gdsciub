@@ -1,11 +1,7 @@
 import classes from "./team.module.css";
 import Image from "next/image";
-import {
-  BiLogoLinkedin,
-  BiLogoGithub,
-  BiLogoLinkedinSquare,
-} from "react-icons/bi";
-import { PiLinkFill } from "react-icons/pi";
+import { BiLogoLinkedin, BiLogoGithub } from "react-icons/bi";
+import { BsLink45Deg } from "react-icons/bs";
 import Link from "next/link";
 
 export default function Team() {
@@ -20,33 +16,11 @@ export default function Team() {
             height={170}
             className={classes.img}
           />
-          <h2>Abdur Rehman Shafqat</h2>
-          <h3>Artificial Intelligence</h3>
-          <h4>GDSC Lead</h4>
+          <p className={classes.name}>Abdur Rehman Shafqat</p>
+          <p className={classes.dept}>Artificial Intelligence</p>
+          <p className={classes.role}>GDSC Lead</p>
 
-          <div>
-            <Link
-              className="link"
-              href={"https://www.linkedin.com/in/abuzariii"}
-              target="_blank"
-            >
-              <BiLogoLinkedinSquare size={30} />
-            </Link>
-            <Link
-              className="link"
-              href={"https://www.linkedin.com/in/abuzariii"}
-              target="_blank"
-            >
-              <BiLogoGithub size={30} />
-            </Link>
-            <Link
-              className="link"
-              href={"https://www.linkedin.com/in/abuzariii"}
-              target="_blank"
-            >
-              <PiLinkFill size={30} />
-            </Link>
-          </div>
+          <div></div>
         </div>
 
         <div>
@@ -56,31 +30,24 @@ export default function Team() {
             height={170}
             className={classes.img}
           />
-          <h2>Huzaifa Nawaz</h2>
-          <h3>Information Technology</h3>
-          <h4>Co-Lead / Quantum Lead</h4>
+          <p className={classes.name}>Huzaifa Nawaz</p>
+          <p className={classes.dept}>Information Technology</p>
+          <p className={classes.role}>Co-Lead / Quantum Lead</p>
 
           <div>
             <Link
               className="link"
-              href={"https://www.linkedin.com/in/abuzariii"}
+              href={"http://www.linkedin.com/in/huzaifanawaz"}
               target="_blank"
             >
-              <BiLogoLinkedinSquare size={30} />
+              <BiLogoLinkedin size={20} />
             </Link>
             <Link
               className="link"
-              href={"https://www.linkedin.com/in/abuzariii"}
+              href={"https://github.com/huzaifanawaz"}
               target="_blank"
             >
-              <BiLogoGithub size={30} />
-            </Link>
-            <Link
-              className="link"
-              href={"https://www.linkedin.com/in/abuzariii"}
-              target="_blank"
-            >
-              <PiLinkFill size={30} />
+              <BiLogoGithub size={20} />
             </Link>
           </div>
         </div>
@@ -92,33 +59,11 @@ export default function Team() {
             height={170}
             className={classes.img}
           />
-          <h2>Dawood Faisal</h2>
-          <h3>Computer Science</h3>
-          <h4>Director of Operations</h4>
+          <p className={classes.name}>Dawood Faisal</p>
+          <p className={classes.dept}>Computer Science</p>
+          <p className={classes.role}>Director of Operations</p>
 
-          <div>
-            <Link
-              className="link"
-              href={"https://www.linkedin.com/in/abuzariii"}
-              target="_blank"
-            >
-              <BiLogoLinkedinSquare size={30} />
-            </Link>
-            <Link
-              className="link"
-              href={"https://www.linkedin.com/in/abuzariii"}
-              target="_blank"
-            >
-              <BiLogoGithub size={30} />
-            </Link>
-            <Link
-              className="link"
-              href={"https://www.linkedin.com/in/abuzariii"}
-              target="_blank"
-            >
-              <PiLinkFill size={30} />
-            </Link>
-          </div>
+          <div></div>
         </div>
 
         <div>
@@ -128,31 +73,17 @@ export default function Team() {
             height={170}
             className={classes.img}
           />
-          <h2>Bilal Ilyas Jhandir</h2>
-          <h3>Computer Science</h3>
-          <h4>Team Operations</h4>
+          <p className={classes.name}>Bilal Ilyas Jhandir</p>
+          <p className={classes.dept}>Computer Science</p>
+          <p className={classes.role}>Team Operations</p>
 
           <div>
             <Link
               className="link"
-              href={"https://www.linkedin.com/in/abuzariii"}
+              href={"https://www.linkedin.com/in/bilal-ilyas-75480a222"}
               target="_blank"
             >
-              <BiLogoLinkedinSquare size={30} />
-            </Link>
-            <Link
-              className="link"
-              href={"https://www.linkedin.com/in/abuzariii"}
-              target="_blank"
-            >
-              <BiLogoGithub size={30} />
-            </Link>
-            <Link
-              className="link"
-              href={"https://www.linkedin.com/in/abuzariii"}
-              target="_blank"
-            >
-              <PiLinkFill size={30} />
+              <BiLogoLinkedin size={20} />
             </Link>
           </div>
         </div>
@@ -164,31 +95,17 @@ export default function Team() {
             height={170}
             className={classes.img}
           />
-          <h2>Maham Fatima</h2>
-          <h3>COmputer Science</h3>
-          <h4>Team Operations</h4>
+          <p className={classes.name}>Maham Fatima</p>
+          <p className={classes.dept}>Computer Science</p>
+          <p className={classes.role}>Team Operations</p>
 
           <div>
             <Link
               className="link"
-              href={"https://www.linkedin.com/in/abuzariii"}
+              href={"https://github.com/maham5"}
               target="_blank"
             >
-              <BiLogoLinkedinSquare size={30} />
-            </Link>
-            <Link
-              className="link"
-              href={"https://www.linkedin.com/in/abuzariii"}
-              target="_blank"
-            >
-              <BiLogoGithub size={30} />
-            </Link>
-            <Link
-              className="link"
-              href={"https://www.linkedin.com/in/abuzariii"}
-              target="_blank"
-            >
-              <PiLinkFill size={30} />
+              <BiLogoGithub size={20} />
             </Link>
           </div>
         </div>
@@ -200,31 +117,17 @@ export default function Team() {
             height={170}
             className={classes.img}
           />
-          <h2>Fayez Ahmad</h2>
-          <h3>Information Technology</h3>
-          <h4>Team Operations</h4>
+          <p className={classes.name}>Fayez Ahmad</p>
+          <p className={classes.dept}>Information Technology</p>
+          <p className={classes.role}>Team Operations</p>
 
           <div>
             <Link
               className="link"
-              href={"https://www.linkedin.com/in/abuzariii"}
+              href={"https://www.linkedin.com/in/fayez-ahmad-64b72a272"}
               target="_blank"
             >
-              <BiLogoLinkedinSquare size={30} />
-            </Link>
-            <Link
-              className="link"
-              href={"https://www.linkedin.com/in/abuzariii"}
-              target="_blank"
-            >
-              <BiLogoGithub size={30} />
-            </Link>
-            <Link
-              className="link"
-              href={"https://www.linkedin.com/in/abuzariii"}
-              target="_blank"
-            >
-              <PiLinkFill size={30} />
+              <BiLogoLinkedin size={20} />
             </Link>
           </div>
         </div>
@@ -236,33 +139,11 @@ export default function Team() {
             height={170}
             className={classes.img}
           />
-          <h2>Nabeera Fatima</h2>
-          <h3>Information Technology</h3>
-          <h4>Women in Teach Lead</h4>
+          <p className={classes.name}>Nabeera Fatima</p>
+          <p className={classes.dept}>Information Technology</p>
+          <p className={classes.role}>Women in Teach Lead</p>
 
-          <div>
-            <Link
-              className="link"
-              href={"https://www.linkedin.com/in/abuzariii"}
-              target="_blank"
-            >
-              <BiLogoLinkedinSquare size={30} />
-            </Link>
-            <Link
-              className="link"
-              href={"https://www.linkedin.com/in/abuzariii"}
-              target="_blank"
-            >
-              <BiLogoGithub size={30} />
-            </Link>
-            <Link
-              className="link"
-              href={"https://www.linkedin.com/in/abuzariii"}
-              target="_blank"
-            >
-              <PiLinkFill size={30} />
-            </Link>
-          </div>
+          <div></div>
         </div>
 
         <div>
@@ -272,31 +153,17 @@ export default function Team() {
             height={170}
             className={classes.img}
           />
-          <h2>Maryam Ahmad</h2>
-          <h3>Information Technology</h3>
-          <h4>Women in Tech Team</h4>
+          <p className={classes.name}>Maryam Ahmad</p>
+          <p className={classes.dept}>Information Technology</p>
+          <p className={classes.role}>Women in Tech Team</p>
 
           <div>
             <Link
               className="link"
-              href={"https://www.linkedin.com/in/abuzariii"}
+              href={"https://www.linkedin.com/in/maryam-ahmad-1342571b5"}
               target="_blank"
             >
-              <BiLogoLinkedinSquare size={30} />
-            </Link>
-            <Link
-              className="link"
-              href={"https://www.linkedin.com/in/abuzariii"}
-              target="_blank"
-            >
-              <BiLogoGithub size={30} />
-            </Link>
-            <Link
-              className="link"
-              href={"https://www.linkedin.com/in/abuzariii"}
-              target="_blank"
-            >
-              <PiLinkFill size={30} />
+              <BiLogoLinkedin size={20} />
             </Link>
           </div>
         </div>
@@ -308,45 +175,23 @@ export default function Team() {
             height={170}
             className={classes.img}
           />
-          <h2>Jannat Javed</h2>
-          <h3>Information Technology</h3>
-          <h4>Women in Tech Team</h4>
+          <p className={classes.name}>Jannat Javed</p>
+          <p className={classes.dept}>Information Technology</p>
+          <p className={classes.role}>Women in Tech Team</p>
 
-          <div>
-            <Link
-              className="link"
-              href={"https://www.linkedin.com/in/abuzariii"}
-              target="_blank"
-            >
-              <BiLogoLinkedinSquare size={30} />
-            </Link>
-            <Link
-              className="link"
-              href={"https://www.linkedin.com/in/abuzariii"}
-              target="_blank"
-            >
-              <BiLogoGithub size={30} />
-            </Link>
-            <Link
-              className="link"
-              href={"https://www.linkedin.com/in/abuzariii"}
-              target="_blank"
-            >
-              <PiLinkFill size={30} />
-            </Link>
-          </div>
+          <div></div>
         </div>
 
         <div>
           <Image
-            src={"/team/huzaifa.JPG"}
+            src={"/team/abuzar.jpeg"}
             width={170}
             height={170}
             className={classes.img}
           />
-          <h2>Muhammad Abuzar</h2>
-          <h3>Software Engineering</h3>
-          <h4>Web Development Lead</h4>
+          <p className={classes.name}>Muhammad Abuzar</p>
+          <p className={classes.dept}>Software Engineering</p>
+          <p className={classes.role}>Web Development Lead</p>
 
           <div>
             <Link
@@ -354,21 +199,21 @@ export default function Team() {
               href={"https://www.linkedin.com/in/abuzariii"}
               target="_blank"
             >
-              <BiLogoLinkedinSquare size={30} />
+              <BiLogoLinkedin size={20} />
             </Link>
             <Link
               className="link"
-              href={"https://www.linkedin.com/in/abuzariii"}
+              href={"https://github.com/Abuzariii"}
               target="_blank"
             >
-              <BiLogoGithub size={30} />
+              <BiLogoGithub size={20} />
             </Link>
             <Link
               className="link"
-              href={"https://www.linkedin.com/in/abuzariii"}
+              href={"https://www.abuzar.social/"}
               target="_blank"
             >
-              <PiLinkFill size={30} />
+              <BsLink45Deg size={20} />
             </Link>
           </div>
         </div>
@@ -380,31 +225,17 @@ export default function Team() {
             height={170}
             className={classes.img}
           />
-          <h2>Ghulam Anas Shahbaz</h2>
-          <h3>Information Technology</h3>
-          <h4>Data Science Lead</h4>
+          <p className={classes.name}>Ghulam Anas Shahbaz</p>
+          <p className={classes.dept}>Information Technology</p>
+          <p className={classes.role}>Data Science Lead</p>
 
           <div>
             <Link
               className="link"
-              href={"https://www.linkedin.com/in/abuzariii"}
+              href={"https://www.linkedin.com/in/anas-bajwa"}
               target="_blank"
             >
-              <BiLogoLinkedinSquare size={30} />
-            </Link>
-            <Link
-              className="link"
-              href={"https://www.linkedin.com/in/abuzariii"}
-              target="_blank"
-            >
-              <BiLogoGithub size={30} />
-            </Link>
-            <Link
-              className="link"
-              href={"https://www.linkedin.com/in/abuzariii"}
-              target="_blank"
-            >
-              <PiLinkFill size={30} />
+              <BiLogoLinkedin size={20} />
             </Link>
           </div>
         </div>
@@ -416,31 +247,26 @@ export default function Team() {
             height={170}
             className={classes.img}
           />
-          <h2>Hamid Mahmood Abbasi</h2>
-          <h3>Information Technology</h3>
-          <h4>UI/UX Lead</h4>
+          <p className={classes.name}>Hamid Mahmood Abbasi</p>
+          <p className={classes.dept}>Information Technology</p>
+          <p className={classes.role}>UI/UX Lead</p>
 
           <div>
             <Link
               className="link"
-              href={"https://www.linkedin.com/in/abuzariii"}
+              href={
+                "https://www.linkedin.com/in/hamid-mehmood-abbasi-345ba2167"
+              }
               target="_blank"
             >
-              <BiLogoLinkedinSquare size={30} />
+              <BiLogoLinkedin size={20} />
             </Link>
             <Link
               className="link"
-              href={"https://www.linkedin.com/in/abuzariii"}
+              href={"https://www.behance.net/hamidabbasi"}
               target="_blank"
             >
-              <BiLogoGithub size={30} />
-            </Link>
-            <Link
-              className="link"
-              href={"https://www.linkedin.com/in/abuzariii"}
-              target="_blank"
-            >
-              <PiLinkFill size={30} />
+              <BsLink45Deg size={20} />
             </Link>
           </div>
         </div>
@@ -452,31 +278,17 @@ export default function Team() {
             height={170}
             className={classes.img}
           />
-          <h2>Umar Cheema</h2>
-          <h3>Information Technology</h3>
-          <h4>CyberSecurity Lead</h4>
+          <p className={classes.name}>Umar Cheema</p>
+          <p className={classes.dept}>Information Technology</p>
+          <p className={classes.role}>CyberSecurity Lead</p>
 
           <div>
             <Link
               className="link"
-              href={"https://www.linkedin.com/in/abuzariii"}
+              href={"https://www.linkedin.com/in/umarcheema1372"}
               target="_blank"
             >
-              <BiLogoLinkedinSquare size={30} />
-            </Link>
-            <Link
-              className="link"
-              href={"https://www.linkedin.com/in/abuzariii"}
-              target="_blank"
-            >
-              <BiLogoGithub size={30} />
-            </Link>
-            <Link
-              className="link"
-              href={"https://www.linkedin.com/in/abuzariii"}
-              target="_blank"
-            >
-              <PiLinkFill size={30} />
+              <BiLogoLinkedin size={20} />
             </Link>
           </div>
         </div>
@@ -488,33 +300,11 @@ export default function Team() {
             height={170}
             className={classes.img}
           />
-          <h2>Tayyab Chaudhary</h2>
-          <h3>ENIGMATIX</h3>
-          <h4>DevOps Lead</h4>
+          <p className={classes.name}>Tayyab Chaudhary</p>
+          <p className={classes.dept}>ENIGMATIX</p>
+          <p className={classes.role}>DevOps Lead</p>
 
-          <div>
-            <Link
-              className="link"
-              href={"https://www.linkedin.com/in/abuzariii"}
-              target="_blank"
-            >
-              <BiLogoLinkedinSquare size={30} />
-            </Link>
-            <Link
-              className="link"
-              href={"https://www.linkedin.com/in/abuzariii"}
-              target="_blank"
-            >
-              <BiLogoGithub size={30} />
-            </Link>
-            <Link
-              className="link"
-              href={"https://www.linkedin.com/in/abuzariii"}
-              target="_blank"
-            >
-              <PiLinkFill size={30} />
-            </Link>
-          </div>
+          <div></div>
         </div>
 
         <div>
@@ -524,31 +314,17 @@ export default function Team() {
             height={170}
             className={classes.img}
           />
-          <h2>Muhammad Hamza Zahid</h2>
-          <h3>Information Technology</h3>
-          <h4>App Development Lead</h4>
+          <p className={classes.name}>Muhammad Hamza Zahid</p>
+          <p className={classes.dept}>Information Technology</p>
+          <p className={classes.role}>App Development Lead</p>
 
           <div>
             <Link
               className="link"
-              href={"https://www.linkedin.com/in/abuzariii"}
+              href={"https://www.linkedin.com/in/hamza-zahid-b6b53b1b3/"}
               target="_blank"
             >
-              <BiLogoLinkedinSquare size={30} />
-            </Link>
-            <Link
-              className="link"
-              href={"https://www.linkedin.com/in/abuzariii"}
-              target="_blank"
-            >
-              <BiLogoGithub size={30} />
-            </Link>
-            <Link
-              className="link"
-              href={"https://www.linkedin.com/in/abuzariii"}
-              target="_blank"
-            >
-              <PiLinkFill size={30} />
+              <BiLogoLinkedin size={20} />
             </Link>
           </div>
         </div>
@@ -560,31 +336,31 @@ export default function Team() {
             height={170}
             className={classes.img}
           />
-          <h2>Muhammad Ahtasham Mushtaq</h2>
-          <h3>Information Technology</h3>
-          <h4>Creative Lead</h4>
+          <p className={classes.name}>Muhammad Ahtasham Mushtaq</p>
+          <p className={classes.dept}>Information Technology</p>
+          <p className={classes.role}>Creative Lead</p>
 
           <div>
             <Link
               className="link"
-              href={"https://www.linkedin.com/in/abuzariii"}
+              href={"http://linkedin.com/in/muhammad-ahtasham-mushtaq"}
               target="_blank"
             >
-              <BiLogoLinkedinSquare size={30} />
+              <BiLogoLinkedin size={20} />
             </Link>
             <Link
               className="link"
-              href={"https://www.linkedin.com/in/abuzariii"}
+              href={"http://behance.net/pubgfans1"}
               target="_blank"
             >
-              <BiLogoGithub size={30} />
+              <BiLogoGithub size={20} />
             </Link>
             <Link
               className="link"
-              href={"https://www.linkedin.com/in/abuzariii"}
+              href={"http://ahtasham.info/"}
               target="_blank"
             >
-              <PiLinkFill size={30} />
+              <BsLink45Deg size={20} />
             </Link>
           </div>
         </div>
@@ -596,33 +372,11 @@ export default function Team() {
             height={170}
             className={classes.img}
           />
-          <h2>Danish Kareem</h2>
-          <h3>Information Technology</h3>
-          <h4>Creative Lead</h4>
+          <p className={classes.name}>Danish Kareem</p>
+          <p className={classes.dept}>Information Technology</p>
+          <p className={classes.role}>Creative Lead</p>
 
-          <div>
-            <Link
-              className="link"
-              href={"https://www.linkedin.com/in/abuzariii"}
-              target="_blank"
-            >
-              <BiLogoLinkedinSquare size={30} />
-            </Link>
-            <Link
-              className="link"
-              href={"https://www.linkedin.com/in/abuzariii"}
-              target="_blank"
-            >
-              <BiLogoGithub size={30} />
-            </Link>
-            <Link
-              className="link"
-              href={"https://www.linkedin.com/in/abuzariii"}
-              target="_blank"
-            >
-              <PiLinkFill size={30} />
-            </Link>
-          </div>
+          <div></div>
         </div>
       </div>
     </div>
