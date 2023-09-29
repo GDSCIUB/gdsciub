@@ -1,0 +1,39 @@
+.team {
+  margin: 100px 0;
+  font-family: sans-serif;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.team h1 {
+  margin: 60px 10px;
+  text-align: center;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.cards > * {
+  margin: 20px;
+  min-height: 400px;
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.img {
+  border-radius: 50%;
+}
+.cards h2 {
+  color: rgb(95, 99, 104);
+}
+.cards h3,
+.cards h4 {
+  color: rgb(95, 99, 104);
+}
