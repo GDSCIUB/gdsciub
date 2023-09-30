@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Team() {
   return (
-    <div className={classes.team}>
+    <div className={classes.team} id="Team">
       <h1>Meet Our Team</h1>
       <div className={classes.cards}>
         <div>
@@ -20,7 +20,15 @@ export default function Team() {
           <p className={classes.dept}>Artificial Intelligence</p>
           <p className={classes.role}>GDSC Lead</p>
 
-          <div></div>
+          <div>
+            <Link
+              className="link"
+              href={"http://linkedin.com/in/abdurehmanshafqat/"}
+              target="_blank"
+            >
+              <BiLogoLinkedin size={20} />
+            </Link>
+          </div>
         </div>
 
         <div>
@@ -140,7 +148,7 @@ export default function Team() {
             className={classes.img}
           />
           <p className={classes.name}>Nabeera Fatima</p>
-          <p className={classes.dept}>Information Technology</p>
+          <p className={classes.dept}>Software Engineering</p>
           <p className={classes.role}>Women in Teach Lead</p>
 
           <div></div>
@@ -279,7 +287,9 @@ export default function Team() {
             className={classes.img}
           />
           <p className={classes.name}>Umar Cheema</p>
-          <p className={classes.dept}>Information Technology</p>
+          <p className={classes.dept}>
+            Information and Communication Engineering
+          </p>
           <p className={classes.role}>CyberSecurity Lead</p>
 
           <div>
@@ -373,11 +383,34 @@ export default function Team() {
             className={classes.img}
           />
           <p className={classes.name}>Danish Kareem</p>
-          <p className={classes.dept}>Information Technology</p>
-          <p className={classes.role}>Creative Lead</p>
+          <p className={classes.dept}>Artificial Intelligence</p>
+          <p className={classes.role}>Media Lead</p>
 
-          <div></div>
+          <div>
+            <Link
+              className="link"
+              href={"https://www.linkedin.com/in/danish-kareem-351122238"}
+              target="_blank"
+            >
+              <BiLogoLinkedin size={20} />
+            </Link>
+            <Link
+              className="link"
+              href={"https://github.com/DanixKarim"}
+              target="_blank"
+            >
+              <BiLogoGithub size={20} />
+            </Link>
+          </div>
         </div>
+      </div>
+      <div className={classes.prevs}>
+        <Link href={"/2022-23"} className="link">
+          GDCS IUB Chapter Team 2022-23
+        </Link>
+        <Link href={"/2021-22"} className="link">
+          GDCS IUB Chapter Team 2021-22
+        </Link>
       </div>
     </div>
   );
