@@ -126,7 +126,7 @@ export default function Team() {
             className={classes.img}
           />
           <p className={classes.name}>Fayez Ahmad</p>
-          <p className={classes.dept}>Information Technology</p>
+          <p className={classes.dept}>Computer Science </p>
           <p className={classes.role}>Team Operations</p>
 
           <div>
@@ -228,7 +228,7 @@ export default function Team() {
 
         <div>
           <Image
-            src={"/team/anas.jpg"}
+            src={"/team/Anas.jpg"}
             width={170}
             height={170}
             className={classes.img}
