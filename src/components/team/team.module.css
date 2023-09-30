@@ -37,6 +37,7 @@
 }
 .cards > div > div > * {
   margin: 0px 10px;
+  color: rgb(95, 99, 104);
 }
 .img {
   border-radius: 50%;
