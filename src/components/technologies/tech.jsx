@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Tech() {
   return (
-    <div className={classes.tech}>
+    <div className={classes.tech} id="Technologies">
       <h1>Technologies We're Excited About</h1>
 
       <div className={classes.niches}>

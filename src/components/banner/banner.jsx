@@ -3,7 +3,7 @@ import { BiSolidGroup } from "react-icons/bi";
 
 export default function Banner() {
   return (
-    <div className={classes.banner}>
+    <div className={classes.banner} id="Overview">
       <div className={classes.gdsc}>
         <h1>Google Developer Student Club</h1>
         <h2>The Islamia University of Bahawalpur</h2>

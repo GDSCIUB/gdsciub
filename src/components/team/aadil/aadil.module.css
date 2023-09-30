@@ -1,5 +1,5 @@
 .team {
-  margin: 100px 0;
+  margin: 10px 0;
   font-family: sans-serif;
 
   display: flex;
@@ -29,16 +29,6 @@
   justify-content: space-evenly;
   align-items: center;
 }
-.cards > div > div {
-  height: 20px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-.cards > div > div > * {
-  margin: 0px 10px;
-  color: rgb(95, 99, 104);
-}
 .img {
   border-radius: 50%;
   margin-bottom: 20px;
@@ -56,22 +46,4 @@
 .role {
   font-size: 0.9rem;
   color: rgb(95, 99, 104);
-}
-.prevs {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  padding: 10px;
-}
-.prevs > * {
-  margin: 10px;
-  color: rgb(255, 255, 255);
-  background-color: rgb(66, 133, 244);
-  border-radius: 0.5rem;
-  padding: 10px;
-  font-size: 0.9rem;
-}
-.prevs > *:hover {
-  background-color: rgb(23, 101, 204);
 }

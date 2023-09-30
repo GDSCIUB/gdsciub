@@ -2,7 +2,7 @@ import classes from "./faqs.module.css";
 
 export default function FAQs() {
   return (
-    <div className={classes.faqs}>
+    <div className={classes.faqs} id="FAQs">
       <h1>Frequently Asked Questions</h1>
 
       <div className={classes.questions}>

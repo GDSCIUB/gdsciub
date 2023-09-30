@@ -5,6 +5,7 @@
   align-items: center;
   flex-direction: column;
   padding: 30px;
+  border-top: 2px solid rgb(26, 26, 26, 0.1);
 }
 .footer > * {
   margin: 10px;
