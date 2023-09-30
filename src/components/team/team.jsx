@@ -184,7 +184,7 @@ export default function Team() {
 
         <div>
           <Image
-            src={"/team/abuzar.jpeg"}
+            src={"/team/abuzar.JPG"}
             width={170}
             height={170}
             className={classes.img}
